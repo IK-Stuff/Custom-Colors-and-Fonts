@@ -878,6 +878,12 @@ rgba(114, 137, 218, 0.24);
   z-index: 3;
 }
 
+.fakeLink_ada32f {
+    color: #7289DA;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+}
+
 /* Guild Boosting Pink */
 
 .premiumIcon__5d473 {
