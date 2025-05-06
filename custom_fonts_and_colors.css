@@ -6,10 +6,11 @@
  * @invite 6RctFeCKmz
 */
 
+
 /** 
 The fonts start here
 To know what fonts are what, take a look at the Text Components tab under the Developer Only group
-This is assuming you're using vencord, as I'm unsure how it works on BD
+This is assuming you're using Vencord, as I'm unsure how it works on BD
 Using this through Inspect Element won't do you any harm, but it will reset each time you reload Discord
 */
 
@@ -711,6 +712,46 @@ body {
 The fonts end here
 Colors also start here
 */
+.message-accessories-1369046989622349906{
+    border-left-color:#7289DA;
+}
+
+.visual-refresh .embedFull__623de{
+    background: var(--background-surface-high);
+    border: 1px solid var(--border-subtle);
+    border-left: 4px solid var(--border-normal);
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: #7289DA !important;
+    
+}
+
+.mentionButton__841c8 {
+    color:#7289DA !important;
+}
+
+.tierCardButtonCTA_a45ed3 {
+    color: rgb(114, 137, 218);
+}
+
+.newChannel__599fa {
+    color: #4E5D94
+}
+
+.button__6e3f1 {
+    border-radius: 4px;
+    color: #7289DA;
+    margin-right: 8px;
+    padding: 6px;
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover {
+    background-color: #4E5D94
+}
+
+.lookFilled__201d5.colorBrand__201d5:disabled, .lookFilled__201d5.colorBrand__201d5[aria-disabled=true] {
+    background-color: #7289DA ;
+}
 
 a {
     color: #7289DA;
@@ -758,6 +799,10 @@ a {
 
 :where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
     fill: #7289DA
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconStroke__001a7 {
+    stroke: #7289DA;
 }
 
 :where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5 {
@@ -875,6 +920,19 @@ rgba(114, 137, 218, 0.24);
   color: #7289DA;
 }
 
+.checked__87bf1{
+    opacity: 1;
+    background-color:#7289DA !important;
+    path {
+        fill:#7289DA
+    }
+}
+
+:where(.visual-refresh) .checkbox_f525d3.checked_f525d3 {
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+
 .newMessagesBar__0f481 {
   background-color: #7289DA;
   border-radius:
@@ -891,7 +949,12 @@ rgba(114, 137, 218, 0.24);
     text-decoration: var(--link-decoration);
 }
 
-/* Guild Boosting Pink */
+.message__5126c.replying__5126c.selected__5126c, .mouse-mode.full-motion .message__5126c.replying__5126c:hover, .mouse-mode.full-motion.visual-refresh .message__5126c.replying__5126c:hover, .visual-refresh .message__5126c.replying__5126c.selected__5126c {
+    background: var(--brand-10a);
+}
+
+
+/* Nitro */
 
 .premiumIcon__5d473 {
     color: #71c5e7;
@@ -914,6 +977,92 @@ rgba(114, 137, 218, 0.24);
     color: rgb(110, 197, 126)
 }
 
+.navItem__551b0.selected__551b0 .navItemIcon__551b0 {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 svg {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 {
+    border-left-color: #7289DA;
+    color: #7289DA;
+    background-color: rgba(78, 93, 148, .25);
+}
+
+.premiumLabel_e681d1{
+    path {
+        fill:#71c5e7
+    }
+}
+
+.selected_e681d1{
+    path {
+        fill:white
+    }
+}
+
+.tierCard_a45ed3 {
+    background-image: linear-gradient(92deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    border-radius: var(--radius-lg);
+    color: var(--white-500);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.expandedProgressBarSelectFriendsCTA_a61c56 {
+    background: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    background-clip: padding-box;
+    color: var(--white);
+    flex: 1;
+}
+
+.tier2PlanComparisonTableBackground_a45ed3 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .1), rgba(113, 197, 231, .1));
+}
+
+.tier2ColumnOuter_e4ef5c, .tier2ColumnOuterBackground_e4ef5c {
+    border: 2px solid #718ae7;
+    height: 100%;
+}
+
+.theme-dark .userAvatarProgressBarUnit_a61c56 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .3), rgba(113, 197, 231, .3));
+}
+
+.avatarProgressBarUnitConnectorBase_a61c56 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .3), rgba(113, 197, 231, .3));
+    height: 100%;
+    width: 100%;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
+
+.theme-dark .userAvatarProgressBarUnitNum_a61c56 {
+    background: var(--gradients-nitro-nitro-horizontal, linear-gradient(90deg, #718ae7 0, #9dd7ee 100%));
+}
+
+.expandedProgressBarSelectFriendsIcon_a61c56 {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/3b9b1649f78941df.svg');
+}
+
+.tier2__84995.banner__84995 {
+    background-image: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+}
+
+.premiumIndicator__43963 {
+    background-color: #7289DA;
+}
+
+
 /* Speaking */
 
 .avatarSpeaking__07f91 {
@@ -922,4 +1071,9 @@ rgba(114, 137, 218, 0.24);
 
 .border__2f4f7.speaking__2f4f7 {
     box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
+}
+
+.avatarSpeaking__44b0c {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
 }
