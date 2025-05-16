@@ -2,10 +2,61 @@
  * @name Custom Fonts and Colors
  * @author I.K. Stuff
  * @authorLink https://github.com/IK-Stuff
- * @description Uses custom fonts I have, but is easily edited. Feel free to change them up! Fonts used are the Minecraft font and Determination Mono and Sans made by Harry Wakamatsu.
+ * @description Uses custom fonts I have, but is easily edited. Feel free to change them up! Fonts used are the Minecraft and Determination Mono and Sans made by Harry Wakamatsu.
  * @invite 6RctFeCKmz
 */
 
+
+::placeholder,body,button,input,select,textarea {
+    font-family: "Determination Sans", "Determination Mono", "Minecraft Seven v2", monospace;
+    text-rendering: optimizeLegibility
+}
+
+/* root */
+
+:root{
+    --font-code: "Determination Mono", "Determination Sans", monospace;
+    --blurple-50: hsl(227, 58%, 65%);
+    --guild-boosting-pink:hsl(197, 71%, 67%);
+    --youtube: linear-gradient(0deg, #6d0d13ff 0, #93161bff 21%, #b71f23ff 44%, #d12629ff 65%, #e12a2cff 85%, #e72c2eff 100%);
+    --youtube-secondary: hsl(356, 79%, 24%);
+    --youtube-tertiary: hsl(359, 80%, 54%);
+    --brand-500: hsl(227, 58%, 65%);
+    --text-link-new: hsl(227, 58%, 65%);
+    --opacity-blurple-60: hsla(227, 86%, 65%, 0.6);
+    --text-brand-new: hsl(227, 58%, 65%);
+    --blue-345-new: hsl(184, 54%, 58%);
+    --blurple-44: hsl(227, 58%, 65%);
+    --blurple-59: hsl(227, 31%, 44%);
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: #058B00 !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
 
 /** 
 The fonts start here
@@ -14,17 +65,16 @@ This is assuming you're using Vencord, as I'm unsure how it works on BD
 Using this through Inspect Element won't do you any harm, but it will reset each time you reload Discord
 */
 
-::placeholder,body,button,input,select,textarea {
-    font-family: "Determination Sans", "Determination Mono", "Minecraft", monospace;
-    text-rendering: optimizeLegibility
-}
-
-:root{
-    --font-code: "Determination Mono", "Determination Sans", monospace;
-}
-
 body {
-    font-family: "Minecraft", monospace;
+    background: transparent;
+    font-family: "Minecraft Seven v2", monospace;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
 }
 
 .text-sm\/normal_cf4812 {
@@ -39,7 +89,7 @@ body {
 }
 
 .text-lg\/bold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 700
@@ -146,7 +196,7 @@ body {
 }
 
 .text-md\/medium_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 500
@@ -157,7 +207,7 @@ body {
 }
 
 .text-md\/bold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 700
@@ -168,7 +218,7 @@ body {
 }
 
 .text-lg\/normal_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 20px;
     line-height: 1.2;
     font-weight: 400
@@ -194,15 +244,15 @@ body {
 }
 
 .heading-lg\/normal_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .heading-lg\/medium_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .heading-lg\/bold_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 20px;
     line-height: 1.2;
     font-weight: 700
@@ -213,7 +263,7 @@ body {
 }
 
 .heading-lg\/extrabold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 800
@@ -224,7 +274,7 @@ body {
 }
 
 .heading-xl\/normal_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 400
@@ -235,19 +285,19 @@ body {
 }
 
 .heading-xl\/medium_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .heading-xxl\/normal_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .heading-xxl\/medium_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .heading-xl\/semibold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 24px;
     line-height: 1.25;
     font-weight: 600
@@ -258,7 +308,7 @@ body {
 }
 
 .heading-xl\/extrabold_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 24px;
     line-height: 1.25;
     font-weight: 800
@@ -269,7 +319,7 @@ body {
 }
 
 .heading-xl\/bold_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 24px;
     line-height: 1.25;
     font-weight: 700
@@ -280,7 +330,7 @@ body {
 }
 
 .text-lg\/medium_cf4812 {
-    font-family: "Minecraft", monospace;
+    font-family: "Minecraft Seven v2", monospace;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 500
@@ -313,7 +363,7 @@ body {
 }
 
 .heading-xxl\/semibold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 32px;
     line-height: 1.25;
     font-weight: 600
@@ -324,7 +374,7 @@ body {
 }
 
 .heading-xxl\/bold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 32px;
     line-height: 1.25;
     font-weight: 700
@@ -335,7 +385,7 @@ body {
 }
 
 .heading-xxl\/extrabold_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 32px;
     line-height: 1.25;
     font-weight: 800
@@ -368,7 +418,7 @@ body {
 }
 
 .display-md_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 34px;
     line-height: 1.0588235294117647;
     font-weight: 800
@@ -379,7 +429,7 @@ body {
 }
 
 .display-lg_cf4812 {
-    font-family: "Minecraft";
+    font-family: "Minecraft Seven v2";
     font-size: 44px;
     line-height: .9545454545454546;
     font-weight: 800
@@ -403,7 +453,7 @@ body {
 }
 
 .text-lg\/semibold_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 20px;
     line-height: 1.2;
     font-weight: 600
@@ -459,7 +509,7 @@ body {
 .title_b717a1 {
     flex: 1;
     cursor: default;
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .h1_b717a1 {
@@ -495,7 +545,7 @@ body {
 
 .userTag__1fed1 {
     margin-bottom: 6px;
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     color: var(--header-primary);
     font-size: 20px;
     line-height: 24px;
@@ -547,7 +597,7 @@ body {
 }
 
 .heading-sm\/normal_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 14px;
     line-height: 1.2857142857142858;
     font-weight: 400
@@ -569,7 +619,7 @@ body {
 }
 
 .heading-md\/medium_cf4812 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 16px;
     line-height: 1.25;
     font-weight: 500
@@ -659,11 +709,11 @@ body {
 }
 
 .display-sm_cf4812{
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
 }
 
 .channelName__754bd div,.channelName__754bd input {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-weight: 600
 }
 
@@ -683,7 +733,7 @@ body {
 }
 
 .text-sm\/medium__13cf1 {
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.2857142857142858
@@ -702,7 +752,7 @@ body {
 
 .markup__75297 h1,.markup__75297 h2,.markup__75297 h3,.markup__75297 h4,.markup__75297 h5,.markup__75297 h6 {
     color: var(--header-primary);
-    font-family: Minecraft;
+    font-family: Minecraft Seven v2;
     font-weight: 700;
     line-height: 1.375em;
     margin: 16px 0 4px
@@ -712,6 +762,19 @@ body {
 The fonts end here
 Colors also start here
 */
+
+.improved__1689b, h3.improved__1689b {
+    color: var(--text-brand-new);
+}
+
+:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084,:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084:hover,:where(.visual-refresh) .input__0f084:not([readOnly]):focus,:where(.visual-refresh) .input__0f084:not([readOnly]):focus:hover {
+    border-color: var(--text-link-new);
+}
+
+.visual-refresh .defaultTextInputWrapper__7b848:focus-within {
+    border: 1px solid var(--text-link-new);
+}
+
 .message-accessories-1369046989622349906{
     border-left-color:#7289DA;
 }
@@ -722,8 +785,27 @@ Colors also start here
     border-left: 4px solid var(--border-normal);
     border-left-width: 4px;
     border-left-style: solid;
-    border-left-color: #7289DA !important;
+    border-left-color: var(--blue-345-new) !important;
     
+}
+
+.eventStatusContainer__29021 {
+    path{
+        fill:#7289DA;
+    }
+}
+
+.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+    background: linear-gradient(151.11deg, var(--brand-460) 16.55%, var(--brand-560) 104.36%);
+    background-image: linear-gradient(151.11deg, #7289DA 16.55%, #4E5D94 104.36%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
 }
 
 .mentionButton__841c8 {
@@ -731,7 +813,7 @@ Colors also start here
 }
 
 .tierCardButtonCTA_a45ed3 {
-    color: rgb(114, 137, 218);
+    color: #7289da;
 }
 
 .newChannel__599fa {
@@ -759,14 +841,14 @@ a {
     text-decoration: none
 }
 
-.anchor_edefb8 {
-    color: #7289DA;
-    -webkit-text-decoration: var(--link-decoration);
-    text-decoration: var(--link-decoration)
+.content__487be a {
+    color: var(--blue-345-new);
+    text-decoration: none;
+    transition: .05s;
 }
 
 .markup__75297 a {
-    color: #7289DA;
+    color: var(--blue-345-new);
     cursor: pointer;
     -webkit-text-decoration: var(--link-decoration);
     text-decoration: var(--link-decoration);
@@ -789,12 +871,12 @@ a {
 }
 
 :where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026 {
-    --selected-tab-item-color: #7289DA
+    --selected-tab-item-color: #7289DA;
 }
 
-:where(.visual-refresh) .mini_a562c8 .barFill_a562c8,:where(.visual-refresh) .slider_a562c8 .barFill_a562c8 {
+:where(.visual-refresh) .slider_a562c8 .barFill_a562c8 {
     background-color: #7289DA;
-    border: 1px solid hsla(0,0%,100%,.1)
+    border: 1px solid hsla(0, 0%, 100%, .1);
 }
 
 :where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
@@ -810,7 +892,7 @@ a {
 }
 
 :where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
-    --button--underline-color: #7289DA
+    --button--underline-color: #7289DA;
 }
 
 .channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0, .channel__972a0:has(.selected_bf202d) .closeButton__972a0 {
@@ -864,8 +946,8 @@ rgba(114, 137, 218, 0.24);
 
 .containerDefault_c69b6d:has(.modeSelected__2ea32),
 .containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
-  border-left-color: #7289DA;
-  background-color: rgba(78, 93, 148, 0.25);
+  border-left-color: #7289DA !important;
+  background-color: rgba(78, 93, 148, 0.25) !important;
 }
 
 .containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
@@ -953,8 +1035,105 @@ rgba(114, 137, 218, 0.24);
     background: var(--brand-10a);
 }
 
+.selectorButton_c6d3dc:before {
+    background: var(--brand-500);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #7289DA;
+    content: " ";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.images-dark .krispLogo_e131a9 {
+    background-image: url(https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg);
+}
+
+.icon_f43ba5 {
+    content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg");
+}
+
+
+.flowerStarContainer__3e3b0.gameVerifiedIcon_cc46f0 {
+    .flowerStar__3e3b0 {
+        path{
+        fill: #7289DA !important;
+        }
+    }
+}
+
+.visual-refresh .reaction__23977.reactionMe__23977 {
+    background-color: rgba(78, 93, 148, 0.4);
+    border-color: #7289DA;
+}
+
+.button__6d791.active__6d791 {
+    path{
+        fill:#7289DA !important;
+    }
+}
+
+.colorStreamerMode__6e2b9 {
+    --custom-notice-background: var(--youtube);
+    --custom-notice-text: var(--white-500);
+    --custom-notice-button-hover: var(--youtube);
+}
+
+.streamerModeEnabledBtn_aa3ffd {
+    background-color: var(--youtube-tertiary);
+    border-radius: 3px;
+    color: var(--white-500);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.streamerModeEnabledBtn_aa3ffd:hover {
+    background-color: var(--youtube-secondary)
+}
+
+.streamerModeEnabledBtn_aa3ffd.disabled_aa3ffd {
+    background-color: var(--youtube);
+    cursor: default;
+    opacity: .5
+}
 
 /* Nitro */
+
+.tabBarItemContainer_c7e907 {
+    path{
+        fill:#71c5e7;
+    }
+}
+
+.tierAccomplished_c44edb, .tierCurrent_c44edb, .tierFirst_c44edb {
+    background: #71c5e7;
+}
+
+.perksDemoContainer__5dec7 {
+    path {
+        d:('M15 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z');
+        d:('M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1 1 0 0 0 0 2H8a1 1 0 1 1 0 2H6a1 1 0 1 0 0 2h1.25A8 8 0 1 0 15 4H7Zm8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z');
+        d:('M2.5 10a1 1 0 0 0 0-2H2a1 1 0 0 0 0 2h.5Z');
+        fill:#71c5e7
+    }
+}
+
+.text__87e56 {
+    color: #71c5e7;
+}
 
 .premiumIcon__5d473 {
     color: #71c5e7;
@@ -1001,6 +1180,27 @@ rgba(114, 137, 218, 0.24);
     path {
         fill:white
     }
+}
+
+.pill_f8e6bf {
+    background-image: linear-gradient(92deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    border-radius: 10px;
+    color: var(--white);
+    left: 24px;
+    padding: 0 8px;
+    position: absolute;
+    top: -8px;
+    z-index: 30;
+}
+
+.nitroGradientBorderHover__1f069:before {
+    background: linear-gradient(95.07deg,  #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%), var(--premium-tier-2-purple-for-gradients);
+    border-radius: inherit;
+    content: "";
+    inset: -2px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
 }
 
 .tierCard_a45ed3 {
@@ -1062,8 +1262,52 @@ rgba(114, 137, 218, 0.24);
     background-color: #7289DA;
 }
 
+.guildBoostBadgeWithBoosts_f9f04c {
+    color: #71c5e7;
+    opacity: 1;
+}
+
+.progressBarMarkerUnlocked__1f1cb .progressBarMarkerIndicator__1f1cb {
+    background: #71c5e7;
+    border-radius: 100%;
+    content: "";
+    height: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    z-index: 0;
+}
+
+.progress__823e1.half__823e1 {
+    background: linear-gradient(90deg, rgb(113, 138, 231), var(--bg-mod-subtle));
+}
+
+.progressBarFill_b28bb7 {
+    background-image: linear-gradient(90deg, rgb(113, 138, 231) 0, var(--white-500) 100%);
+    left: 0;
+    z-index: 2;
+}
+
 
 /* Speaking */
+
+.voiceIcon_adebba {
+    display: block;
+    flex-shrink: 0;
+    opacity: 1;
+    color: #b90202 !important;
+}
+
+.speaking_adebba .avatar_adebba {
+    outline: 1px solid #FA003F;
+    outline-offset: 2px;
+}
+
+.border_f910d0.speaking_f910d0 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating);
+}
 
 .avatarSpeaking__07f91 {
     box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
