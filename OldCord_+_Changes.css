@@ -8,12 +8,12 @@
 
 /* Compact / Hide Visual Refresh Title Bar - By Chloe (chloecinders) */
 
-@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
+@import url("https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
 
 
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
-@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+@import url("https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css");
 
 :root {
     /* Only include this part if you wish to change these variables */
