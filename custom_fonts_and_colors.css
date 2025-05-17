@@ -6,6 +6,11 @@
  * @invite 6RctFeCKmz
 */
 
+/* import */
+
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
+
+/* placeholder */
 
 ::placeholder,body,button,input,select,textarea {
     font-family: "Determination Sans", "Determination Mono", "Minecraft Seven v2", monospace;
