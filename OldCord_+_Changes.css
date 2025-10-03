@@ -13,7 +13,7 @@
 
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
-@import url("https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css");
+@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
 :root {
     /* Only include this part if you wish to change these variables */
@@ -29,25 +29,27 @@
 
 /* Don't Cover Server List With Panel - By Obsidian (obsidianninja11) */
 
-/** swap out edited section.panels if not using better folders plugin from Vencord with this:
+/** swap out edited section.panels if not using better folders plugin from Vencord with this:*/
 
 .visual-refresh section.panels_c48ade {
   left: calc(var(--custom-guild-list-width) + var(--space-xs));
   width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
   box-sizing: content-box;
+  bottom: 0px;
 
-*/
+/*
 
 .visual-refresh section.panels_c48ade {
   left: 144px !important;
   box-sizing: content-box;
-
+  bottom: 0px !important;
+*/
   .actionButtons_e131a9 button {
     padding: 0;
   }
 
   /** GameActivityToggle Fix (delete if you don't use) */
-   .container__37e49 {
+    .container__37e49 {
     padding: var(--space-xxs);
     gap: var(--space-4);
     >.buttons__37e49 {
@@ -190,6 +192,6 @@ span[class*="timestampInline_"] {
 .button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
 .button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
 .separator_f84418 {
-   display: none;
+    display: none;
 }
 
