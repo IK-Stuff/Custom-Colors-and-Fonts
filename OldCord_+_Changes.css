@@ -45,6 +45,7 @@
   box-sizing: content-box;
   bottom: 0px !important;
 */
+
   .actionButtons_e131a9 button {
     padding: 0;
   }
@@ -165,27 +166,6 @@ div[class^=sidebar_] section[class^=panels_] {
   width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
   left: var(--custom-guild-list-width);
 }
-
-/* Detailed Timestamp - By krekevyks1337 */
-
-.timestamp_c19a55 {
-    cursor: default;
-    display: inline-block;
-    font-weight: 500;
-    height: 1.25rem;
-    pointer-events: none;
-}
-
-span[class*="timestampInline_"] time::before {
-    content: attr(aria-label);
-    font-size: 12px;
-}
-
-span[class*="timestampInline_"] {
-    font-size: 0px !important;
-}
-
-
 
 /* Disable Quick Reacts - By Alt+F4 (the.better.altefffour) */
 
