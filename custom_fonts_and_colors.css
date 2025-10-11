@@ -6,6 +6,10 @@
  * @invite 6RctFeCKmz
 */
 
+/* import */
+
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
+
 /* placeholder */
 
 ::placeholder,body,button,input,select,textarea {
@@ -66,6 +70,28 @@ This is assuming you're using Vencord, as I'm unsure how it works on BD
 Using this through Inspect Element won't do you any harm, but it will reset each time you reload Discord
 */
 
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+    border: 0;
+    font-family: "Minecraft Seven v2";
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+.vc-text-base {
+    font-family: "Determination Sans";
+    color: var(--text-default);
+    line-height: normal;
+    margin: 0;
+}
+
+.vc-btn-base {
+    font-family: "Determination Sans";
+}
+
 body {
     background: transparent;
     font-family: "Minecraft Seven v2", monospace;
@@ -76,6 +102,13 @@ body {
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none
+}
+
+.text-md-semibold-22iAgK {
+    font-family: "Minecraft Seven v2";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
 }
 
 .text-md-semibold-22iAgK {
