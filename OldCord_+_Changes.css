@@ -41,10 +41,17 @@
 */
 
 .visual-refresh section.panels_c48ade {
-  left: 144px !important;
+  left: 145px !important;
   box-sizing: content-box;
   bottom: 0px !important;
-*/
+
+
+/* Panel Spacing Hotfix - by @her.kiwi (Ï.K. §†ÛFF) */
+
+.panels_c48ade {
+  --custom-panels-spacing: 1px;
+}
+
 
   .actionButtons_e131a9 button {
     padding: 0;
@@ -175,4 +182,3 @@ div[class^=sidebar_] section[class^=panels_] {
 .separator_f84418 {
    display: none;
 }
-
