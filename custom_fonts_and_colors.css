@@ -19,7 +19,7 @@
 
 /* root */
 
-:root {
+:root{
     --font-code: "Determination Mono", "Determination Sans", monospace;
     --blurple-50: hsl(227, 58%, 65%);
     --guild-boosting-pink:hsl(197, 71%, 67%);
@@ -63,35 +63,6 @@
     color: transparent;
 }
 
-.root,[data-popout-root],:root {
-    --font-code: "Determination Mono", "Determination Sans", monospace !important;
-    font-family: "Determination Mono" !important;
-    text-rendering: optimizeLegibility !important;
-    .voiceIcon_adebba {
-    display: block;
-    flex-shrink: 0;
-    opacity: 1;
-    color: #b90202 !important;
-    }
-.speaking_adebba .avatar_adebba {
-    outline: 1px solid #FA003F !important;
-    outline-offset: 2px;
-    }
-.border_f910d0.speaking_f910d0 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating) !important;
-    }
-.avatarSpeaking__07f91 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary) !important;
-    }
-.border__2f4f7.speaking__2f4f7 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500) !important;
-    }
-.avatarSpeaking__44b0c {
-    border-radius: 50%;
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary) !important;
-    }
-}
-
 /** 
 The fonts start here
 To know what fonts are what, take a look at the Text Components tab under the Developer Only group
@@ -108,7 +79,6 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     margin: 0;
     padding: 0;
     vertical-align: baseline
-    !important
 }
 
 .vc-text-base {
@@ -1364,44 +1334,37 @@ rgba(114, 137, 218, 0.24);
 
 /* Speaking */
 
-.content__0bd4a .popout__0bd4a .voiceIcon_adebba {
+.voiceIcon_adebba {
     display: block;
     flex-shrink: 0;
     opacity: 1;
     color: #b90202 !important;
 }
 
-.content__0bd4a .popout__0bd4a .speaking_adebba .avatar_adebba {
-    outline: 1px solid #FA003F !important;
+.speaking_adebba .avatar_adebba {
+    outline: 1px solid #FA003F;
     outline-offset: 2px;
 }
 
-.content__0bd4a .popout__0bd4a .border_f910d0.speaking_f910d0 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating) !important;
+.border_f910d0.speaking_f910d0 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating);
 }
 
-.content__0bd4a .popout__0bd4a .avatarSpeaking__07f91 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary) !important;
+.avatarSpeaking__07f91 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
 }
 
-.content__0bd4a .popout__0bd4a .border__2f4f7.speaking__2f4f7 {
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500) !important;
+.border__2f4f7.speaking__2f4f7 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
 }
 
-.content__0bd4a .popout__0bd4a .avatarSpeaking__44b0c {
+.avatarSpeaking__44b0c {
     border-radius: 50%;
-    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary) !important;
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
 }
 
-
-/* Popout */
-
-.popout__3f413 {
-    background: var(--background-base-lower);
-    background-color: var(--background-surface-higher);
-    border: 15px solid var(--background-base-lowest);
-    border-color: #FA003F;
-    border-radius: 0 0 4px 4px;
-    margin: 0
-    !important
+.overlayContainer__2f4f7 {
+    .border__2f4f7.speaking__2f4f7 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
+    }
 }
