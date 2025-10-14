@@ -44,14 +44,7 @@
   left: 145px !important;
   box-sizing: content-box;
   bottom: 0px !important;
-
-
-/* Panel Spacing Hotfix - by @her.kiwi (Ï.K. §†ÛFF) */
-
-.panels_c48ade {
-  --custom-panels-spacing: 1px;
-}
-
+*/
 
   .actionButtons_e131a9 button {
     padding: 0;
@@ -174,6 +167,12 @@ div[class^=sidebar_] section[class^=panels_] {
   left: var(--custom-guild-list-width);
 }
 
+/* Panel Spacing Hotfix - by @her.kiwi (Ï.K. §†ÛFF) */
+
+.panels_c48ade {
+  --custom-panels-spacing: 1px;
+}
+
 /* Disable Quick Reacts - By Alt+F4 (the.better.altefffour) */
 
 .button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
@@ -182,3 +181,5 @@ div[class^=sidebar_] section[class^=panels_] {
 .separator_f84418 {
    display: none;
 }
+
+
