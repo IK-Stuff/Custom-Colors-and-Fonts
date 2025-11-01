@@ -5,55 +5,97 @@
 */
 
 
+/*NOTICE: MINOR CHANGES HAVE BEEN MADE TO AT LEAST ONE OF THESE TO FIX SHIT THAT DOES NOT TICKLE MY BRAIN RIGHT, THEY SHOULDN'T DISRUPT YOUR INSTANCE WHATSOEVER*/
+
 
 /* Compact / Hide Visual Refresh Title Bar - By Chloe (chloecinders) */
 
 @import url("https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
 
+div.base__5e434 {
+  grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
+
+  & > div.content__5e434 {
+    z-index: 0;
+  }
+
+  & > div.bar_c38106 {
+    position: absolute;
+    top: var(--vr-header-snippet-top);
+    right: anchor(right);
+    width: anchor-size(width);
+    padding: 0 var(--vr-header-snippet-button-padding) 0 0;
+  }
+  
+  & div.trailing_c38106 {
+    background: none;
+    border: none;
+    height: var(--custom-channel-header-height);
+  }
+}
+
+:not(:has(div.page__5e434 > div.chat_f75fb0)) div.base__5e434 > div.bar_c38106 {
+  right: 0 !important;
+}
 
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
 
-:root {
-    /* Only include this part if you wish to change these variables */
-    /* You can change the size but only to be less than 48px, you must change the blob scale too */
-    --guildbar-avatar-size: 48px;
-    --blob-scale: 48;
+/* Adjust padding/size in folder preview */
+.folderHeaderSmall__48112 {
+  --custom-folder-preview-padding: 4px;
+}
+.folderPreviewGuildIcon__48112 {
+  border-radius: 50% !important;
+  font-size: 6px !important; /* Acronym font size. might want to adjust since it changes with different length text. see conversation about it around this message: https://discord.com/channels/1015060230222131221/1354502862390038528/1359845103019229346 */
+  line-height: 16px;
+}
 
-    --guildbar-folder-size: var(--guildbar-avatar-size);
-    --folder-blob-scale: var(--blob-scale);
+/* Round and animated server icons */
+.blobContainer_e5445c foreignObject:hover,
+.blobContainer_e5445c.selected_e5445c foreignObject,
+:is([data-list-item-id="guildsnav___home"],
+  [data-list-item-id=guildsnav___favorites]
+).selected__6e9f8 .childWrapper__6e9f8,
+:is([data-list-item-id="guildsnav___create-join-button"],
+  [data-list-item-id="guildsnav___guild-discover-button"]
+).selected__5bc7e,
+.stack_dbd263>div[style="opacity: 1; height: 40px; transform: scale(1);"] .selected__6e9f8>img {
+  border-radius: 27% !important;
+}
+.blobContainer_e5445c foreignObject,
+:is([data-list-item-id="guildsnav___home"],
+[data-list-item-id=guildsnav___favorites]) .childWrapper__6e9f8,
+:is([data-list-item-id="guildsnav___create-join-button"],
+[data-list-item-id="guildsnav___guild-discover-button"]) {
+  transition: border-radius 0.2s linear;
+  border-radius: 75%;
+}
+.shiftSVG_cc5dd2{
+    width: 52px !important;
+    height: 52px !important;
+    padding: 0px;
 }
 
 
 
 /* Don't Cover Server List With Panel - By Obsidian (obsidianninja11) */
 
-/** swap out edited section.panels if not using better folders plugin from Vencord with this:*/
-
-/*
-.visual-refresh section.panels_c48ade {
+.visual-refresh section.panels__5e434 {
   left: calc(var(--custom-guild-list-width) + var(--space-xs));
   width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
-  box-sizing: content-box;
-  bottom: 0px;
-
-*/
-
-.visual-refresh section.panels_c48ade {
-  left: 145px !important;
-  box-sizing: content-box;
-  bottom: 0px !important;
-}
+  box-sizing: border-box;
 
   .actionButtons_e131a9 button {
     padding: 0;
   }
 
-  /** GameActivityToggle Fix (delete if you don't use) */
-    .container__37e49 {
+  /* GameActivityToggle Fix (delete if you don't use) */
+   .container__37e49 {
     padding: var(--space-xxs);
     gap: var(--space-4);
+    bottom: 0px !important;
     >.buttons__37e49 {
       gap: 0;
     }
@@ -64,31 +106,42 @@
       }
     }
   } 
-
-nav.guilds_c48ade {
+}
+nav.guilds__5e434 {
   margin-bottom: 0 !important;
 }
-.sidebar_c48ade:after {
+.sidebar__5e434:after {
   display: none;
 }
 
+/* BetterFolders fix (delete if you don't use) */
+/* .vc-betterFolders-sidebar~section.panels__5e434 {
+  left: calc(var(--custom-guild-list-width)*2  + var(--space-xs));
+  width: calc(100% - var(--custom-guild-list-width)*2 - var(--space-xs)*2 ) !important;
+} */
 
-
+.micButtonParent__37e49>.buttonChevron__37e49 {
+  display: none;
+}
+.micButtonParent__37e49>.micButtonWithMenu__37e49 {
+  border-radius: var(--radius-sm);
+}
 
 /* BetterFolders fix (delete if you don't use) */
 
 
- .visual-refresh [style$="grid-area: betterFoldersSidebar;"]~section.panels_c48ade {
-  left: calc(var(--custom-guild-list-width)*2  + var(--space-xs));
-  width: calc(100% - var(--custom-guild-list-width)*2 - var(--space-xs)*2 ) !important;
-} 
+.vc-betterFolders-sidebar~section.panels__5e434 {
+  left: calc(var(--custom-guild-list-width)*2);
+  width: calc(100% - var(--custom-guild-list-width)*2) !important;
+  bottom: 0;
+} */
 
 
 
 /* Carti's Collapsible Panel - By carti (prt.scr) */
 
 /**
-.panels_c48ade {
+.panels_5e434 {
   left: var(--space-sm)!important;
   height: 57px!important;
   width: 56px!important;
@@ -111,7 +164,7 @@ nav.guilds_c48ade {
   
 }
 
-.panels_c48ade:hover {
+.panels_5e434:hover {
   width: 300px!important;
   height: auto!important;
   display: flex!important;
@@ -123,7 +176,7 @@ nav.guilds_c48ade {
     height: auto!important;
   }
 }
-.sidebar_c48ade {
+.sidebar_5e434 {
   overflow: visible!important;
 }
 .container__2637a {
@@ -169,8 +222,6 @@ div[class^=sidebar_] section[class^=panels_] {
 
 /* Panel Spacing Hotfix - by @her.kiwi (Ï.K. §†ÛFF) */
 
-.panels_c48ade {
+.panels_5e434 {
   --custom-panels-spacing: 1px;
 }
-
-
