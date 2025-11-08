@@ -10,6 +10,8 @@
 
 @import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
 
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/custom_background.css');
+
 /* placeholder */
 
 ::placeholder,body,button,input,select,textarea {
@@ -1367,4 +1369,5 @@ rgba(114, 137, 218, 0.24);
     .border__2f4f7.speaking__2f4f7 {
     box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
     }
+
 }
