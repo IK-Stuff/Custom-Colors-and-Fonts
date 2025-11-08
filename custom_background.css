@@ -1,0 +1,388 @@
+/**
+ * @name Custom Background
+ * @author I.K. Stuff
+ * @description A very heavily modified version of the Chillax theme by wq to not change too much of the UI
+*/
+
+
+:root {
+	
+	--transparencycolor:			0, 0, 0;
+	--transparencyalpha:			0.15;
+	--bordercolor:				0, 0, 0;
+	--messagetransparency:			0.5;
+	--guildchanneltransparency:		0.15;
+	--chatinputtransparency:		0.0;
+	--memberlisttransparency:		0.0;
+	--accentcolor:				190, 78, 180;
+	
+
+	--background_v:				var(--background_s, var(--background));
+	--backgroundposition_v:			var(--backgroundposition_s, var(--backgroundposition));
+	--backgroundsize_v:			var(--backgroundsize_s, var(--backgroundsize));
+	--backgroundblur_v:			calc(1px * var(--backgroundblur_s, var(--backgroundblur)));
+	
+	--background:				url(https://files.catbox.moe/s5p2zv.jpg);
+	--backgroundposition:			center;
+	--backgroundsize:			cover;
+	--backgroundblur:			0;
+
+	
+	--transparencycolor_v:			var(--transparencycolor_s, var(--transparencycolor));
+	--transparencyalpha_v:			var(--transparencyalpha_s, var(--transparencyalpha));
+	--bordercolor_v:			var(--bordercolor_s, var(--bordercolor));
+	--messagetransparency_v:		var(--messagetransparency_s, var(--messagetransparency));
+	--guildchanneltransparency_v:		var(--guildchanneltransparency_s, var(--guildchanneltransparency));
+	--chatinputtransparency_v:		var(--chatinputtransparency_s, var(--chatinputtransparency));
+	--memberlisttransparency_v:		var(--memberlisttransparency_s, var(--memberlisttransparency));
+	--accentcolor_v:			var(--accentcolor_s, var(--accentcolor));
+
+	
+	--popout_v:				var(--popout_s, var(--popout));
+	--popoutposition_v:			var(--popoutposition_s, var(--popoutposition));
+	--popoutsize_v:				var(--popoutsize_s, var(--popoutsize));
+	--popoutblur_v:				calc(1px * var(--popoutblur_s, var(--popoutblur)));
+
+	--popout:				var(--background);
+	--popoutposition:			var(--backgroundposition);
+	--popoutsize:				var(--backgroundsize);
+	--popoutblur:				var(--backgroundblur);
+}
+
+.theme-light:not(.custom-user-profile-theme),
+.theme-dark:not(.custom-user-profile-theme),
+.theme-amoled:not(.custom-user-profile-theme),
+.visual-refresh.theme-light:not(.custom-user-profile-theme),
+.visual-refresh.theme-dark:not(.custom-user-profile-theme),
+.visual-refresh.theme-amoled:not(.custom-user-profile-theme),
+.visual-refresh .theme-light:not(.custom-user-profile-theme),
+.visual-refresh .theme-dark:not(.custom-user-profile-theme),
+.visual-refresh .theme-amoled:not(.custom-user-profile-theme) {
+	--background-mod-faint: rgba(var(--transparencycolor_v), .3);
+	--background-mod-subtle: rgba(var(--transparencycolor_v), .4);
+	--background-mod-normal: rgba(var(--transparencycolor_v), .46);
+	--background-mod-strong: rgba(var(--transparencycolor_v), .54);
+	--background-base-low: rgba(var(--transparencycolor_v), .2);
+	--background-base-lower: rgba(var(--transparencycolor_v), .3);
+	--background-base-lowest: rgba(var(--transparencycolor_v), .4);
+	--background-surface-highest: rgb(var(--transparencycolor_v));
+	--background-surface-higher: rgb(var(--transparencycolor_v));
+	--background-surface-high: rgb(var(--transparencycolor_v));
+	--background-secondary-alt: rgba(var(--transparencycolor_v), .35);
+	--background-nested-floating: rgba(var(--transparencycolor_v), .5);
+	--chat-background-default: rgba(var(--transparencycolor_v), .3);
+
+}
+
+
+body,											/* body													*/
+#app-mount .app__160d8,									/* app					inner								*/
+#app-mount .bg__960e4,									/* app					background							*/
+#app-mount .itemsContainer_ef3116,							/* guilds				inner (custom theme)						*/
+#app-mount .container_f37cb1,								/* channels				header								*/
+#app-mount .header_f37cb1,								/* channels				header inner							*/
+#app-mount .container__2637a,								/* channels				inner								*/
+#app-mount .privateChannels__35e86,							/* dmchannels												*/
+#app-mount .scroller__99e7c,								/* dmchannels				inner								*/
+#app-mount .directoryContainer_da3f59,							/* server app directory											*/
+#app-mount .panels_c48ade > *,								/* account/voice			inner								*/
+#app-mount .chat_f75fb0,								/* chat					container							*/
+#app-mount .chatContent_f75fb0,								/* chat					channel								*/
+#app-mount .container_f369db,								/* chat					forums								*/
+#app-mount .container__89463,								/* chat					boosts								*/
+#app-mount .contentContainer__89463,							/* chat					boosts inner							*/
+#app-mount .container__0b563,								/* chat					search								*/
+#app-mount .container_c2efea,								/* chat					search inner							*/
+#app-mount .container__01ae2,								/* chat					thread sidebar							*/
+#app-mount .wrapper__0d1ef,								/* chat					messages loading						*/
+#app-mount .pageBody__41ed7,								/* chat					channel search							*/
+#app-mount .noChannel__01d5c,								/* nochannel												*/
+#app-mount .container_c8ffbb,								/* members				container							*/
+#app-mount .members_c8ffbb,								/* members												*/
+#app-mount .members_c8ffbb > div,								/* shop					buyall								*/
+#app-mount .sidebarListRounded_c48ade{
+	background: transparent !important;
+}
+
+
+/* KEEP THIS SAFE */
+
+body:has(#app-mount)::before,
+body:has(#app-mount)::after {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	z-index: -1;
+}
+body:has(#app-mount)::before {
+	background: var(--background_v) var(--backgroundposition_v)/var(--backgroundsize_v);
+}
+
+
+
+
+
+.panels_c48ade::before,
+.panels_c48ade::after {
+	content: "";
+	position: absolute;
+	border-radius: var(--radius-sm);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+	z-index: -2;
+}
+.panels_c48ade::before {
+	background: var(--background_v) var(--backgroundposition_v)/var(--backgroundsize_v);
+	background-attachment: fixed;
+}
+.panels_c48ade::after {
+	background-color: rgba(var(--transparencycolor_v), calc(var(--guildchanneltransparency_v) * 2.5 + var(--transparencyalpha_v) * 0.7));
+	backdrop-filter: blur(var(--backgroundblur_v));
+}
+
+#app-mount .panels_c48ade > *,								/* account/voice			inner								*/
+#app-mount .panels_c48ade .wrapper_e131a9 > * {						/* account/voice			inner								*/
+	background: none;
+	border: none;
+}
+
+
+
+
+
+#app-mount .root_bfe55a,
+#app-mount .callContainer_cb9592,
+#app-mount .wrapper_cb9592 {
+	background: transparent;
+	color: var(--header-primary);
+	border-left: 0 !important;
+}
+
+
+
+
+#app-mount .shopCard_c3d04b {								/* store				card								*/
+	background-color: var(--background-base-lower) !important;
+}
+#app-mount .shopCard_c3d04b:hover {							/* store				card hover							*/
+	box-shadow: 0 0 15px 1px var(--background-base-lower) !important;
+}
+#app-mount .darkCardBackground_c3d04b,
+#app-mount .lightCardBackground_c3d04b {
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+
+
+
+
+#app-mount .quickswitcher_ac6cb0 {
+	background-color: transparent;
+	box-shadow: 0 0 0 1px rgba(var(--transparencycolor_v), .3), 0 2px 10px 0 rgba(var(--transparencycolor_v), .3);
+	position: relative;
+	overflow: hidden;
+	flex: 1 1 auto;
+}
+.quickswitcher_ac6cb0::before,
+.quickswitcher_ac6cb0::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.quickswitcher_ac6cb0::before {
+	background: var(--popout_v) var(--popoutposition_v)/var(--popoutsize_v);
+	background-attachment: fixed;
+}
+.quickswitcher_ac6cb0::after {
+	background-color: rgba(var(--transparencycolor_v), calc(var(--transparencyalpha_v) + 0.2));
+	backdrop-filter: blur(var(--popoutblur_v));
+}
+
+.root__49fc1 .quickswitcher_ac6cb0::before,
+.root__49fc1 .quickswitcher_ac6cb0::after {
+	display: none;
+}
+.scroller_ac6cb0 {
+	background-color: transparent;
+}
+#app-mount .input_ac6cb0 {								/* modal				input								*/
+	background-color: rgba(var(--transparencycolor_v), .4);
+	box-shadow: 0 2px 10px 0 rgba(var(--transparencycolor_v), .3);
+}
+#app-mount .result__71961[aria-selected=true] {						/* modal				resultselected							*/
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+
+.contentWrapper__08434::before,
+.container__0800c::before,
+.emojiPicker_c0e32c::before,
+.diversitySelectorOptions_a45a2a::before,
+.upsellWrapper__4006b::before,
+.contentWrapper__08434::after,
+.container__0800c::after,
+.emojiPicker_c0e32c::after,
+.diversitySelectorOptions_a45a2a::after,
+.upsellWrapper__4006b::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	border-radius: var(--custom-emoji-picker-border-radius);
+	pointer-events: none;
+	z-index: -1;
+}
+.contentWrapper__08434::before,
+.container__0800c::before,
+.emojiPicker_c0e32c::before,
+.diversitySelectorOptions_a45a2a::before,
+.upsellWrapper__4006b::before {
+	background: var(--popout_v) var(--popoutposition_v)/var(--popoutsize_v);
+	background-attachment: fixed;
+}
+.contentWrapper__08434::after,
+.container__0800c::after,
+.emojiPicker_c0e32c::after,
+.diversitySelectorOptions_a45a2a::after,
+.upsellWrapper__4006b::after {
+	background: rgba(var(--transparencycolor_v), calc(var(--transparencyalpha_v) + 0.25));
+	backdrop-filter: blur(var(--popoutblur_v));
+}
+
+.contentWrapper__08434 .emojiPicker_c0e32c::before,
+.container__0800c .emojiPicker_c0e32c::before,
+.contentWrapper__08434 .emojiPicker_c0e32c::after,
+.container__0800c .emojiPicker_c0e32c::after {
+	display: none;
+}
+
+
+
+
+
+#app-mount .emojiPickerHeader__0800c,
+#app-mount .header_c0e32c {
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+#app-mount .wrapper__4e6ce {
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+#app-mount .slotsContainer__0800c {
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+#app-mount .guildIcon__0fa6d {
+	background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+.header_fed6d3 {
+    background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+.header__8ef02 {
+    background-color: rgba(var(--transparencycolor_v), .2);
+}
+
+.categoryItemDefaultCategorySelected_b9ee0c svg,
+.categoryItemDefaultCategorySelected_b9ee0c:hover svg {
+	filter: drop-shadow(1px 1px var(--textshadow_v));
+}
+
+.unicodeShortcut_b9ee0c {
+	background-color: transparent;
+	border: none;
+	overflow: hidden;
+	z-index: 100;
+}
+.unicodeShortcut_b9ee0c::before,
+.unicodeShortcut_b9ee0c::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	pointer-events: none;
+	z-index: -1;
+}
+.unicodeShortcut_b9ee0c::before {
+	background: var(--popout_v) var(--popoutposition_v)/var(--popoutsize_v);
+	background-attachment: fixed;
+}
+.unicodeShortcut_b9ee0c::after {
+	background-color: rgba(var(--transparencycolor_v), calc(var(--transparencyalpha_v) + 0.35));
+	backdrop-filter: blur(var(--popoutblur_v));
+}
+
+#app-mount .wrapper__14245 {
+	background: transparent;
+	position: static;
+}
+
+
+
+#app-mount .picker__09f65 {
+	background-color: transparent;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 0 1px rgba(var(--transparencycolor_v), .3), 0 2px 10px 0 rgba(var(--transparencycolor_v), .3);
+	position: relative;
+}
+.picker__09f65::before,
+.picker__09f65::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: unset;
+	height: unset;
+	border-radius: 5px;
+	pointer-events: none;
+	z-index: -1;
+}
+.picker__09f65::before {
+	background: var(--popout_v) var(--popoutposition_v)/var(--popoutsize_v);
+	background-attachment: fixed;
+}
+.picker__09f65::after {
+	background-color: rgba(var(--transparencycolor_v), calc(var(--transparencyalpha_v) + 0.25));
+	backdrop-filter: blur(var(--popoutblur_v));
+}
+
+
+
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+#app-mount ::-webkit-scrollbar,
+#app-mount ::-webkit-scrollbar-track,
+#app-mount ::-webkit-scrollbar-track-piece {
+	border-color: transparent !important;
+	background: transparent !important;
+}
