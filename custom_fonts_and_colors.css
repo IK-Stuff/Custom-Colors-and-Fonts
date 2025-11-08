@@ -12,6 +12,12 @@
 
 @import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/custom_background.css');
 
+/**
+:root{
+    --background: url(YOUR URL HERE);
+}
+*/
+
 /* placeholder */
 
 ::placeholder,body,button,input,select,textarea {
@@ -1371,3 +1377,4 @@ rgba(114, 137, 218, 0.24);
     }
 
 }
+
