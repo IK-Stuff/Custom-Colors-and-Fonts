@@ -5,94 +5,44 @@
 */
 
 
-/*NOTICE: MINOR CHANGES HAVE BEEN MADE TO AT LEAST ONE OF THESE TO FIX SHIT THAT DOES NOT TICKLE MY BRAIN RIGHT, THEY SHOULDN'T DISRUPT YOUR INSTANCE WHATSOEVER*/
-
 
 /* Compact / Hide Visual Refresh Title Bar - By Chloe (chloecinders) */
 
-@import url("https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
-
-div.base__5e434 {
-  grid-template-rows: [top] 0 [titleBarEnd] min-content [noticeEnd] 1fr [contentEnd] min-content [end];
-
-  & > div.content__5e434 {
-    z-index: 0;
-  }
-
-  & > div.bar_c38106 {
-    position: absolute;
-    top: var(--vr-header-snippet-top);
-    right: anchor(right);
-    width: anchor-size(width);
-    padding: 0 var(--vr-header-snippet-button-padding) 0 0;
-  }
-  
-  & div.trailing_c38106 {
-    background: none;
-    border: none;
-    height: var(--custom-channel-header-height);
-  }
-}
-
-:not(:has(div.page__5e434 > div.chat_f75fb0)) div.base__5e434 > div.bar_c38106 {
-  right: 0 !important;
-}
+@import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
 
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
 @import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+:root {
+    --guildbar-avatar-size: 46px;
+    --blob-scale: 48;
 
-/* Adjust padding/size in folder preview */
-.folderHeaderSmall__48112 {
-  --custom-folder-preview-padding: 4px;
-}
-.folderPreviewGuildIcon__48112 {
-  border-radius: 50% !important;
-  font-size: 6px !important; /* Acronym font size. might want to adjust since it changes with different length text. see conversation about it around this message: https://discord.com/channels/1015060230222131221/1354502862390038528/1359845103019229346 */
-  line-height: 16px;
-}
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
 
-/* Round and animated server icons */
-.blobContainer_e5445c foreignObject:hover,
-.blobContainer_e5445c.selected_e5445c foreignObject,
-:is([data-list-item-id="guildsnav___home"],
-  [data-list-item-id=guildsnav___favorites]
-).selected__6e9f8 .childWrapper__6e9f8,
-:is([data-list-item-id="guildsnav___create-join-button"],
-  [data-list-item-id="guildsnav___guild-discover-button"]
-).selected__5bc7e,
-.stack_dbd263>div[style="opacity: 1; height: 40px; transform: scale(1);"] .selected__6e9f8>img {
-  border-radius: 27% !important;
+    --custom-guild-list-padding: 12px;
+    --custom-guild-list-width: calc(
+        max(var(--guildbar-avatar-size), var(--guildbar-folder-size))
+        + var(--custom-guild-list-padding) * 2
+    );
 }
-.blobContainer_e5445c foreignObject,
-:is([data-list-item-id="guildsnav___home"],
-[data-list-item-id=guildsnav___favorites]) .childWrapper__6e9f8,
-:is([data-list-item-id="guildsnav___create-join-button"],
-[data-list-item-id="guildsnav___guild-discover-button"]) {
-  transition: border-radius 0.2s linear;
-  border-radius: 75%;
-}
-.shiftSVG_cc5dd2{
-    width: 52px !important;
-    height: 52px !important;
-    padding: 0px;
-}
-
 
 
 /* Don't Cover Server List With Panel - By Obsidian (obsidianninja11) */
+
 
 .visual-refresh section.panels__5e434 {
   left: calc(var(--custom-guild-list-width) + var(--space-xs));
   width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
   box-sizing: border-box;
-
+}
   .actionButtons_e131a9 button {
     padding: 0;
   }
 
   /* GameActivityToggle Fix (delete if you don't use) */
-   .container__37e49 {
+  
+  .container__37e49 {
     padding: var(--space-xxs);
     gap: var(--space-4);
     bottom: 0px !important;
@@ -106,19 +56,13 @@ div.base__5e434 {
       }
     }
   } 
-}
+
 nav.guilds__5e434 {
   margin-bottom: 0 !important;
 }
 .sidebar__5e434:after {
   display: none;
 }
-
-/* BetterFolders fix (delete if you don't use) */
-/* .vc-betterFolders-sidebar~section.panels__5e434 {
-  left: calc(var(--custom-guild-list-width)*2  + var(--space-xs));
-  width: calc(100% - var(--custom-guild-list-width)*2 - var(--space-xs)*2 ) !important;
-} */
 
 .micButtonParent__37e49>.buttonChevron__37e49 {
   display: none;
@@ -134,7 +78,7 @@ nav.guilds__5e434 {
   left: calc(var(--custom-guild-list-width)*2);
   width: calc(100% - var(--custom-guild-list-width)*2) !important;
   bottom: 0;
-} */
+}
 
 
 
@@ -215,13 +159,18 @@ nav.guilds__5e434 {
 */
 
 /* Revert user area - by @krekevyks1337 (237616896948699136) */
-div[class^=sidebar_] section[class^=panels_] {
+.visual-refresh div[class*="-sidebar"] section[class$="-panels"] {
   width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
-  left: var(--custom-guild-list-width);
+  left: 141px;
+  bottom: 0px;
+  border-radius: 0px;
+  border: none;
 }
 
-/* Panel Spacing Hotfix - by @her.kiwi (Ï.K. §†ÛFF) */
-
-.panels_5e434 {
-  --custom-panels-spacing: 1px;
+.visual-refresh nav[class*=-guilds] {
+  margin-bottom: unset;
+}
+/* Padding hotfix - by @her.kiwi (IK_Stuff) */
+.e131a99484292a19-container {
+padding: 15px;
 }
