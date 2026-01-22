@@ -170,7 +170,8 @@ nav.guilds__5e434 {
 .visual-refresh nav[class*=-guilds] {
   margin-bottom: unset;
 }
+
 /* Padding hotfix - by @her.kiwi (IK_Stuff) */
 .e131a99484292a19-container {
-padding: 15px;
+  padding: 20px;
 }
