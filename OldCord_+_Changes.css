@@ -10,59 +10,78 @@
 
 @import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
-@import url("https://scattagain.github.io/VencordStuff/css/GuildbarRevert.css");
+@import url('https://raw.githubusercontent.com/scattagain/VencordStuff/4fa465629d6d71092c20aa11245abb6ad4a44641/css/GuildbarRevert.css');
+
 :root {
-    --guildbar-avatar-size: 46px;
-    --blob-scale: 48;
+    /* Only include this part if you wish to change these variables */
+    /* You can change the size but only to be less than 48px, you must change the blob scale too */
+    --guildbar-avatar-size: 40px;
+    --blob-scale: 40;
 
     --guildbar-folder-size: var(--guildbar-avatar-size);
     --folder-blob-scale: var(--blob-scale);
 
-    --custom-guild-list-padding: 12px;
-    --custom-guild-list-width: calc(
-        max(var(--guildbar-avatar-size), var(--guildbar-folder-size))
-        + var(--custom-guild-list-padding) * 2
-    );
+}.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
 /* Don't Cover Server List With Panel - By Obsidian (obsidianninja11) */
 
-
 .visual-refresh section.panels__5e434 {
-  left: calc(var(--custom-guild-list-width) + var(--space-xs));
-  width: calc(100% - var(--custom-guild-list-width) - var(--space-xs)*2);
+  left: calc(var(--custom-guild-list-width));
+  width: calc(100% - var(--custom-guild-list-width));
   box-sizing: border-box;
+  bottom: 0;
+  border-radius: 0;
+  border-bottom: none;
+  border-right: none;
 }
+
   .actionButtons_e131a9 button {
     padding: 0;
   }
+  .activityPanel__5e434 {
+    border-radius: inherit;
+  }
 
   /* GameActivityToggle Fix (delete if you don't use) */
-  
-  .container__37e49 {
-    padding: var(--space-xxs);
-    gap: var(--space-4);
-    bottom: 0px !important;
-    >.buttons__37e49 {
-      gap: 0;
-    }
-    >.avatarWrapper__37e49 {
-      min-width: 32px !important;
-      >.avatar__37e49 {
-        scale: 0.9;
-      }
-    }
-  } 
 
-nav.guilds__5e434 {
+  .container__37e49>.buttons__37e49 {
+    gap: 2px !important;
+  }
+  .container__37e49>.avatarWrapper__37e49 {
+    min-width: 32px !important;
+  }
+
+nav.guilds__5e434, #channels {
   margin-bottom: 0 !important;
 }
 .sidebar__5e434:after {
   display: none;
 }
+
+/* BetterFolders fix (delete if you don't use) */
+
+.vc-betterFolders-sidebar~section.panels__5e434 {
+  left: calc(var(--custom-guild-list-width)*2);
+  width: calc(100% - var(--custom-guild-list-width)*2) !important;
+}
+
+/* Hide the arrows (creates extra room) */
 
 .micButtonParent__37e49>.buttonChevron__37e49 {
   display: none;
@@ -71,15 +90,7 @@ nav.guilds__5e434 {
   border-radius: var(--radius-sm);
 }
 
-/* BetterFolders fix (delete if you don't use) */
-
-
-.vc-betterFolders-sidebar~section.panels__5e434 {
-  left: calc(var(--custom-guild-list-width)*2);
-  width: calc(100% - var(--custom-guild-list-width)*2) !important;
-  bottom: 0;
-}
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
 /* Carti's Collapsible Panel - By carti (prt.scr) */
@@ -133,7 +144,6 @@ nav.guilds__5e434 {
   bottom: 0px!important;
 }
 
-
 .visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
   opacity: 0;
   transform: scale(0);
@@ -158,6 +168,10 @@ nav.guilds__5e434 {
 }
 */
 
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
 /* Revert user area - by @krekevyks1337 (237616896948699136) */
 .visual-refresh div[class*="-sidebar"] section[class$="-panels"] {
   width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
@@ -172,6 +186,6 @@ nav.guilds__5e434 {
 }
 
 /* Padding hotfix - by @her.kiwi (IK_Stuff) */
-.e131a99484292a19-container {
-  padding: 20px;
+.container_e131a9 {
+  padding: 15px;
 }

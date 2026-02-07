@@ -8,7 +8,7 @@
 
 /* import */
 
-@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
+/* @import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css'); */
 
 @import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/custom_background.css');
 
@@ -385,10 +385,6 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Minecraft Seven V2;
 }
 
-.cf48127484dbde85-eyebrow {
-    font-family: Determination Sans;
-}
-
 .cf48127484dbde85-heading-xxl\/normal {
     font-family: Determination Sans;
 }
@@ -423,6 +419,42 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+.eyebrow_a7acae {
+    font-family: "Determination Sans";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow__2b1f5 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_b717a1 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
 /* vc-base */
 
 .vc-text-base {
@@ -437,6 +469,665 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 
 .c1e9c47c23f12ca3-groupLabel {
     font-family: Determination Mono;
+}
+
+/* Reverted Fonts */
+
+body {
+    background: transparent;
+    font-family: "Minecraft Seven v2", monospace;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.text-md-semibold-22iAgK {
+    font-family: "Minecraft Seven v2";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-md-semibold-22iAgK {
+    font-family: "Minecraft Seven v2";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-sm\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.text-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-lg\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.text-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 400
+}
+
+.text-xs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-xxs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-xxs\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.text-xxs\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: "Determination Mono", monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-sm\/medium_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.text-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-xs\/medium_cf4812 {
+    font-family: "Determination Mono";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 500
+}
+
+.text-xs\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xs\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 600
+}
+
+.text-xs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/semibold_cf4812 {
+    font-family: "Determination Mono";
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-xxs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-sm\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 700
+}
+
+.text-sm\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.text-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-md\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.text-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-lg\/normal_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-lg\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-md\/semibold_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-md\/extrabold_cf4812{
+    font-family: determination sans;
+}
+
+.heading-lg\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/bold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.heading-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-lg\/extrabold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 800
+}
+
+.heading-lg\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-xl\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.heading-xl\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/extrabold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/bold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.text-lg\/medium_cf4812 {
+    font-family: "Minecraft Seven v2", monospace;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500
+}
+
+.text-lg\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/bold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700
+}
+
+.text-xs\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.heading-sm\/medium_cf4812 {
+    font-family: Determination Mono;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.heading-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-xxl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xxl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xxl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/extrabold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xxl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-md\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-lg\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.heading-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.display-md_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 34px;
+    line-height: 1.0588235294117647;
+    font-weight: 800
+}
+
+.display-md_cf4812.fontScaling_cf4812 {
+    font-size: 2.125rem
+}
+
+.display-lg_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 44px;
+    line-height: .9545454545454546;
+    font-weight: 800
+}
+
+.display-lg_cf4812.fontScaling_cf4812 {
+    font-size: 2.75rem
+}
+
+.text-lg\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.seeAllPerksButton_ca1a02 {
+    font-family: Determination Mono;
+    font-weight: 400;
+    font-size: 14px;
+    background: var(--background-floating);
+    box-shadow: 0 12px 36px 0 var(--opacity-black-16);
+    color: var(--text-normal);
+    border-radius: 4px;
+    padding: 8px 8px 8px 16px
+}
+
+.seeAllPerksButton_ca1a02:hover {
+    background: linear-gradient(120deg,var(--premium-tier-2-purple-for-gradients) 20%,var(--premium-tier-2-purple-for-gradients-2) 50%,var(--premium-tier-2-pink-for-gradients) 80%)
+}
+
+.text-md\/normal_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.text-md\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.bar__3b95d {
+    font-family: Determination Sans;
+}
+
+
+
+.title_b717a1 {
+    flex: 1;
+    cursor: default;
+    font-family: Minecraft Seven v2;
+}
+
+.h1_b717a1 {
+    font-size: 20px;
+    line-height: 24px
+}
+
+.userTag__1fed1 {
+    margin-bottom: 6px;
+    font-family: Minecraft Seven v2;
+    color: var(--header-primary);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600
+}
+
+.discriminator__1fed1 {
+    color: var(--header-secondary)
+}
+
+.text__13cf1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    font-family: Determination Mono;
+    font-weight: 600
+}
+
+.container_a9809a {
+    position: relative
+}
+
+.text-md\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.text-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.userName__0f2e8 {
+    color: var(--channels-default);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.28571;
+    font-weight: 500;
+}
+
+.userName__0f2e8.fontScaling__0f2e8 {
+    font-size: 0.875rem;
+}
+
+.heading-sm\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.heading-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: "Determination Sans", monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.heading-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-sm\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.text-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/message-preview\/normal_cf4812{
+    font-family: Determination sans;
+}
+
+.redesign\/message-preview\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/semibold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/heading-18\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/channel-title\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.display-sm_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.channelName__754bd div,.channelName__754bd input {
+    font-family: Minecraft Seven v2;
+    font-weight: 600
+}
+
+.newWrapper__754bd {
+    gap: 12px
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+.text-sm\/medium__13cf1 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2857142857142858
+}
+
+.text-sm\/medium__13cf1.fontScaling__13cf1 {
+    font-size: .875rem
+}
+
+.text-sm\/normal__6ec1a {
+    font-family: Determination Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2857142857142858
+}
+
+.markup__75297 h1,.markup__75297 h2,.markup__75297 h3,.markup__75297 h4,.markup__75297 h5,.markup__75297 h6 {
+    color: var(--header-primary);
+    font-family: Minecraft Seven v2;
+    font-weight: 700;
+    line-height: 1.375em;
+    margin: 16px 0 4px
 }
 
 
