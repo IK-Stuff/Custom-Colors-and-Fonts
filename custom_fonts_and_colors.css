@@ -455,6 +455,15 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     letter-spacing: .02em
 }
 
+.eyebrow__463b7 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.3333333333333333;
+    text-transform: uppercase
+} /*Discord keeps changing the layer visibilty for the ping counter, so this is what it is right now. It's subject to change, but this will give a base for what to change instead of adding a new line of uncertainty*/
+
 /* vc-base */
 
 .vc-text-base {
