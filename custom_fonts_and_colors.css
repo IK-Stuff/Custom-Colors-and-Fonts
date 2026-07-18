@@ -25,6 +25,7 @@
     --font-code: "Determination Mono", "Determination Sans", monospace;
     --blurple-50: hsl(227, 58%, 65%);
     --guild-boosting-pink:hsl(197, 71%, 67%);
+    --guild-boosting-pink-refresh: hsl(197, 71%, 67%);
     --youtube: linear-gradient(0deg, #6d0d13ff 0, #93161bff 21%, #b71f23ff 44%, #d12629ff 65%, #e12a2cff 85%, #e72c2eff 100%);
     --youtube-secondary: hsl(356, 79%, 24%);
     --youtube-tertiary: hsl(359, 80%, 54%);
@@ -171,6 +172,11 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+/* additional version of sm\/medium*/
+.text-sm\/medium__07f91 {
+    font-family: Determination Sans;
+}
+
 .cf48127484dbde85-text-sm\/semibold {
     font-family: Determination Mono;
 }
@@ -189,6 +195,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 
 .cf48127484dbde85-text-md\/medium {
     font-family: Determination Sans;
+}
+/* additional version of md\/medium*/
+.text-md\/medium__20a53 {
+    font-family: Determination Mono;
 }
 
 .cf48127484dbde85-text-md\/semibold {
@@ -1627,6 +1637,14 @@ rgba(114, 137, 218, 0.24);
 
 .expandedProgressBarSelectFriendsIcon_a61c56 {
     content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/3b9b1649f78941df.svg');
+}
+
+.gemIcon_a0750b {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/263e4cc9043cab70.svg');
+}
+
+.rowThumbnail__1bfce {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/rowThumbnail__1bfce.png');
 }
 
 .tier2__84995.banner__84995 {
