@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   height="24"
+   viewBox="0 0 24 24"
+   width="24"
+   version="1.1"
+   id="svg12"
+   sodipodi:docname="185ece790f20d870.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <svg:defs
+     id="defs12" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="48.125"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg12" />
+  <svg:path
+     d="m 4.61998,5.80002 -0.41,0.84 C 4.16224,6.68113 4.13279,6.73952 4.1281,6.80234 4.12341,6.86517 4.14387,6.92728 4.18498,6.97502 4.22609,7.02276 4.28448,7.05221 4.3473,7.0569 4.41013,7.06159 4.47224,7.04113 4.51998,7.00002 l 0.84,-0.4 c 0.03119,-0.01506 0.06537,-0.02288 0.1,-0.02288 0.03463,0 0.06882,0.00782 0.1,0.02288 l 0.84,0.4 C 6.44334,7.02247 6.49272,7.03054 6.54097,7.02306 6.58923,7.01558 6.63385,6.99294 6.66837,6.95841 6.7029,6.92388 6.72554,6.87927 6.73302,6.83101 6.7405,6.78276 6.73243,6.73338 6.70998,6.69002 l -0.41,-0.89 C 6.28505,5.77058 6.27726,5.73803 6.27726,5.70502 c 0,-0.03301 0.00779,-0.06556 0.02272,-0.095 l 0.41,-0.84 C 6.73243,4.72666 6.7405,4.67728 6.73302,4.62903 6.72554,4.58078 6.7029,4.53616 6.66837,4.50163 6.63385,4.4671 6.58923,4.44446 6.54097,4.43698 6.49272,4.4295 6.44334,4.43757 6.39998,4.46002 l -0.84,0.4 c -0.03118,0.01506 -0.06537,0.02288 -0.1,0.02288 -0.03463,0 -0.06881,-0.00782 -0.1,-0.02288 l -0.84,-0.4 C 4.47662,4.43757 4.42724,4.4295 4.37899,4.43698 4.33074,4.44446 4.28612,4.4671 4.25159,4.50163 4.21706,4.53616 4.19442,4.58078 4.18694,4.62903 4.17946,4.67728 4.18753,4.72666 4.20998,4.77002 l 0.41,0.84 c 0.01494,0.02944 0.02272,0.06199 0.02272,0.095 0,0.03301 -0.00778,0.06556 -0.02272,0.095 z"
+     fill="#ffd836"
+     id="path1"
+     style="display:inline" />
+  <svg:path
+     d="m 20.8401,9.14001 -5.51,-1.73 -3.35,-4.71 -3.33998,4.71 -5.52,1.73 3.45,4.63999 -0.06,5.77 5.46998,-1.84 5.48,1.84 -0.06,-5.77 z"
+     fill="#ffdef9"
+     id="path2"
+     style="display:inline;fill:#def0ff;fill-opacity:1" />
+  <svg:path
+     d="m 20.8401,9.14001 -5.51,-1.73 -3.33,-4.71 -3.35998,4.71 -5.52,1.73 3.45,4.63999 -0.06,5.77 5.48998,-1.84 5.48,1.84 -0.06,-5.77 z m -5.45,3.14999 -0.5,0.67 v 0.84 2.26 l -2.15,-0.72 -0.74,-0.27 -0.8,0.27 -2.19998,0.72 V 13.8 13 l -0.5,-0.67 -1.28,-1.86 2.16,-0.67999 0.80998,-0.25 0.49,-0.69 1.32,-1.85 1.31,1.84 0.49,0.68 0.8,0.25 2.16,0.67999 z"
+     fill="#ff73fa"
+     id="path3"
+     style="display:inline;fill:#73c0ff;fill-opacity:1" />
+  <svg:path
+     d="m11.98 2.70001v4.32l1.8 2.52 2.96.92999 4.1-1.32999-5.51-1.73z"
+     fill="#ffb0ff"
+     id="path4"
+     style="fill:#b0dbff;fill-opacity:1" />
+  <svg:path
+     d="m6.57001 13.78 2.5-.82-.03 3.1 2.92999-.99v2.64l-5.45999 1.84z"
+     fill="#e655d4"
+     id="path5"
+     style="fill:#558de6;fill-opacity:1" />
+  <svg:path
+     d="m14.8899 12.96 2.51.82.06 5.77-2.54-3.49z"
+     fill="#ffb0ff"
+     id="path6"
+     style="fill:#b0dbff;fill-opacity:1" />
+  <svg:g
+     fill="#d4e4ff"
+     id="g10">
+    <svg:path
+       d="m19.01 16.14h.01c.243 0 .44-.197.44-.44v-.89c0-.243-.197-.44-.44-.44h-.01c-.243 0-.44.197-.44.44v.89c0 .243.197.44.44.44z"
+       id="path7" />
+    <svg:path
+       d="m19.01 19.68h.01c.243 0 .44-.197.44-.44v-.89c0-.243-.197-.44-.44-.44h-.01c-.243 0-.44.197-.44.44v.89c0 .243.197.44.44.44z"
+       id="path8" />
+    <svg:path
+       d="m18.1299 17.03v-.01c0-.243-.197-.44-.44-.44h-.89c-.243 0-.44.197-.44.44v.01c0 .243.197.44.44.44h.89c.243 0 .44-.197.44-.44z"
+       id="path9" />
+    <svg:path
+       d="m21.6799 17.03v-.01c0-.243-.197-.44-.44-.44h-.89c-.243 0-.44.197-.44.44v.01c0 .243.197.44.44.44h.89c.243 0 .44-.197.44-.44z"
+       id="path10" />
+  </svg:g>
+  <svg:path
+     d="M 13.78,9.53997 9.06997,12.96 8.46997,12.14 13.19,8.71997 Z"
+     fill="#ffffff"
+     id="path11"
+     style="display:inline" />
+  <svg:path
+     d="M 16.74,10.47 9.04004,16.06 V 14.8 L 15.53,10.09 Z"
+     fill="#ffffff"
+     id="path12"
+     style="display:inline" />
+  <style
+     type="text/css"
+     id="custom-css-injector">/**
+ * @name Custom Fonts and Colors
+ * @author I.K. Stuff
+ * @authorLink https://github.com/IK-Stuff
+ * @description Uses custom fonts I have, but is easily edited. Feel free to change them up! Fonts used are the Minecraft and Determination Mono and Sans made by Harry Wakamatsu.
+ * @invite 6RctFeCKmz
+*/
+
+/* import */
+
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
+
+/* placeholder */
+
+::placeholder,body,button,input,select,textarea {
+    font-family: &quot;Determination Sans&quot;, &quot;Determination Mono&quot;, &quot;Minecraft Seven v2&quot;, monospace;
+    text-rendering: optimizeLegibility
+}
+
+/* root */
+
+:root{
+    --font-code: &quot;Determination Mono&quot;, &quot;Determination Sans&quot;, monospace;
+    --blurple-50: hsl(227, 58%, 65%);
+    --guild-boosting-pink:hsl(197, 71%, 67%);
+    --youtube: linear-gradient(0deg, #6d0d13ff 0, #93161bff 21%, #b71f23ff 44%, #d12629ff 65%, #e12a2cff 85%, #e72c2eff 100%);
+    --youtube-secondary: hsl(356, 79%, 24%);
+    --youtube-tertiary: hsl(359, 80%, 54%);
+    --brand-500: hsl(227, 58%, 65%);
+    --text-link-new: hsl(227, 58%, 65%);
+    --opacity-blurple-60: hsla(227, 86%, 65%, 0.6);
+    --text-brand-new: hsl(227, 58%, 65%);
+    --blue-345-new: hsl(184, 54%, 58%);
+    --blurple-44: hsl(227, 58%, 65%);
+    --blurple-59: hsl(227, 31%, 44%);
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: #058B00 !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
+
+/** 
+The fonts start here
+To know what fonts are what, take a look at the Text Components tab under the Developer Only group
+This is assuming you're using Vencord, as I'm unsure how it works on BD
+Using this through Inspect Element won't do you any harm, but it will reset each time you reload Discord
+*/
+
+body {
+    background: transparent;
+    font-family: &quot;Minecraft Seven v2&quot;, monospace;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.text-md-semibold-22iAgK {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-md-semibold-22iAgK {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-sm\/normal_cf4812 {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.text-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-lg\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.text-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/normal_cf4812 {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 400
+}
+
+.text-xs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/normal_cf4812 {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-xxs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-xxs\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.text-xxs\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: &quot;Determination Mono&quot;, monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-sm\/medium_cf4812 {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.text-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-xs\/medium_cf4812 {
+    font-family: &quot;Determination Mono&quot;;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 500
+}
+
+.text-xs\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xs\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 600
+}
+
+.text-xs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/semibold_cf4812 {
+    font-family: &quot;Determination Mono&quot;;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-xxs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-sm\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 700
+}
+
+.text-sm\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.text-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-md\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.text-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-lg\/normal_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-lg\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-md\/semibold_cf4812 {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-md\/extrabold_cf4812{
+    font-family: determination sans;
+}
+
+.heading-lg\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/bold_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.heading-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-lg\/extrabold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 800
+}
+
+.heading-lg\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-xl\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.heading-xl\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/extrabold_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/bold_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.text-lg\/medium_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;, monospace;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500
+}
+
+.text-lg\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/bold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700
+}
+
+.text-xs\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.heading-sm\/medium_cf4812 {
+    font-family: Determination Mono;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.heading-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-xxl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xxl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xxl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/extrabold_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xxl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-md\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-lg\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.heading-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.display-md_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 34px;
+    line-height: 1.0588235294117647;
+    font-weight: 800
+}
+
+.display-md_cf4812.fontScaling_cf4812 {
+    font-size: 2.125rem
+}
+
+.display-lg_cf4812 {
+    font-family: &quot;Minecraft Seven v2&quot;;
+    font-size: 44px;
+    line-height: .9545454545454546;
+    font-weight: 800
+}
+
+.display-lg_cf4812.fontScaling_cf4812 {
+    font-size: 2.75rem
+}
+
+.eyebrow_a7acae {
+    font-family: &quot;Determination Sans&quot;;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_a7acae.fontScaling_a7acae {
+    font-size: .75rem
+}
+
+.text-lg\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.seeAllPerksButton_ca1a02 {
+    font-family: Determination Mono;
+    font-weight: 400;
+    font-size: 14px;
+    background: var(--background-floating);
+    box-shadow: 0 12px 36px 0 var(--opacity-black-16);
+    color: var(--text-normal);
+    border-radius: 4px;
+    padding: 8px 8px 8px 16px
+}
+
+.seeAllPerksButton_ca1a02:hover {
+    background: linear-gradient(120deg,var(--premium-tier-2-purple-for-gradients) 20%,var(--premium-tier-2-purple-for-gradients-2) 50%,var(--premium-tier-2-pink-for-gradients) 80%)
+}
+
+.text-md\/normal_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.text-md\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.bar__3b95d {
+    font-family: Determination Sans;
+}
+
+.eyebrow__2b1f5 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow__2b1f5.fontScaling__2b1f5 {
+    font-size: .75rem
+}
+
+.title_b717a1 {
+    flex: 1;
+    cursor: default;
+    font-family: Minecraft Seven v2;
+}
+
+.h1_b717a1 {
+    font-size: 20px;
+    line-height: 24px
+}
+
+.eyebrow_b717a1 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_b717a1.fontScaling_b717a1 {
+    font-size: .75rem
+}
+
+.eyebrow_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.userTag__1fed1 {
+    margin-bottom: 6px;
+    font-family: Minecraft Seven v2;
+    color: var(--header-primary);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600
+}
+
+.discriminator__1fed1 {
+    color: var(--header-secondary)
+}
+
+.text__13cf1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    font-family: Determination Mono;
+    font-weight: 600
+}
+
+.container_a9809a {
+    position: relative
+}
+
+.text-md\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.text-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.userName__0f2e8 {
+    color: var(--channels-default);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.28571;
+    font-weight: 500;
+}
+
+.userName__0f2e8.fontScaling__0f2e8 {
+    font-size: 0.875rem;
+}
+
+.heading-sm\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.heading-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: &quot;Determination Sans&quot;, monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.heading-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-sm\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.text-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/message-preview\/normal_cf4812{
+    font-family: Determination sans;
+}
+
+.redesign\/message-preview\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/semibold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/heading-18\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/channel-title\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.display-sm_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.channelName__754bd div,.channelName__754bd input {
+    font-family: Minecraft Seven v2;
+    font-weight: 600
+}
+
+.newWrapper__754bd {
+    gap: 12px
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+.text-sm\/medium__13cf1 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2857142857142858
+}
+
+.text-sm\/medium__13cf1.fontScaling__13cf1 {
+    font-size: .875rem
+}
+
+.text-sm\/normal__6ec1a {
+    font-family: Determination Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2857142857142858
+}
+
+.markup__75297 h1,.markup__75297 h2,.markup__75297 h3,.markup__75297 h4,.markup__75297 h5,.markup__75297 h6 {
+    color: var(--header-primary);
+    font-family: Minecraft Seven v2;
+    font-weight: 700;
+    line-height: 1.375em;
+    margin: 16px 0 4px
+}
+
+/**
+The fonts end here
+Colors also start here
+*/
+
+.improved__1689b, h3.improved__1689b {
+    color: var(--text-brand-new);
+}
+
+:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084,:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084:hover,:where(.visual-refresh) .input__0f084:not([readOnly]):focus,:where(.visual-refresh) .input__0f084:not([readOnly]):focus:hover {
+    border-color: var(--text-link-new);
+}
+
+.visual-refresh .defaultTextInputWrapper__7b848:focus-within {
+    border: 1px solid var(--text-link-new);
+}
+
+.message-accessories-1369046989622349906{
+    border-left-color:#7289DA;
+}
+
+.visual-refresh .embedFull__623de{
+    background: var(--background-surface-high);
+    border: 1px solid var(--border-subtle);
+    border-left: 4px solid var(--border-normal);
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--blue-345-new) !important;
+    
+}
+
+.eventStatusContainer__29021 {
+    path{
+        fill:#7289DA;
+    }
+}
+
+.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+    background: linear-gradient(151.11deg, var(--brand-460) 16.55%, var(--brand-560) 104.36%);
+    background-image: linear-gradient(151.11deg, #7289DA 16.55%, #4E5D94 104.36%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.mentionButton__841c8 {
+    color:#7289DA !important;
+}
+
+.tierCardButtonCTA_a45ed3 {
+    color: #7289da;
+}
+
+.newChannel__599fa {
+    color: #4E5D94
+}
+
+.button__6e3f1 {
+    border-radius: 4px;
+    color: #7289DA;
+    margin-right: 8px;
+    padding: 6px;
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover {
+    background-color: #4E5D94
+}
+
+.lookFilled__201d5.colorBrand__201d5:disabled, .lookFilled__201d5.colorBrand__201d5[aria-disabled=true] {
+    background-color: #7289DA ;
+}
+
+a {
+    color: #7289DA;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.content__487be a {
+    color: var(--blue-345-new);
+    text-decoration: none;
+    transition: .05s;
+}
+
+.markup__75297 a {
+    color: var(--blue-345-new);
+    cursor: pointer;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+    word-break: break-word
+}
+
+.visual-refresh .selected_b3f026.item_b3f026,.visual-refresh .selected_b3f026.item_b3f026:hover {
+    color: #7289DA;
+    cursor: default
+}
+
+.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    background-color: #7289DA ;
+    border-color: #4E5D94 ;
+    color: var(--white)
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026 {
+    color: #7289DA
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026 {
+    --selected-tab-item-color: #7289DA;
+}
+
+:where(.visual-refresh) .slider_a562c8 .barFill_a562c8 {
+    background-color: #7289DA;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
+    fill: #7289DA
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconStroke__001a7 {
+    stroke: #7289DA;
+}
+
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5 {
+    color: #7289DA
+}
+
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
+    --button--underline-color: #7289DA;
+}
+
+.channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0, .channel__972a0:has(.selected_bf202d) .closeButton__972a0 {
+  color: #7289DA;
+}
+
+.channel__972a0:has(.selected_bf202d) {
+  border-left-color: #7289DA;
+  color: var(--button-filled-brand-text);
+}
+
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,.wrapper__6e9f8:hover .childWrapper__6e9f8 {
+    background-color: #7289DA;
+    color: var(--white)
+}
+
+.botTagRegular__82f07 {
+  background: #7289DA;
+  color: var(--white);
+}
+
+.wrapper_f61d60 {
+  background:
+rgba(114, 137, 218, 0.24);
+  border-radius:
+3px;
+  color: rgb(144, 255, 167);
+  font-weight: 500;
+  padding:
+0 2px;
+  unicode-bidi: plaintext;
+}
+
+.interactive:hover {
+  background-color: #7289DA;
+  color: var(--white-500);
+}
+
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: #7289DA;
+    color: var(--button-filled-brand-text)
+}
+
+.selectedBackground_e681d1 {
+    background-color: #7289DA;
+}
+
+.card__73069 a {
+    color: #7289DA;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32),
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
+  border-left-color: #7289DA !important;
+  background-color: rgba(78, 93, 148, 0.25) !important;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg {
+  color: #7289DA;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32):hover {
+  background-color: rgba(114, 137, 218, 0.25);
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: #058B00 !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+.headerLearnMoreLink__99020 {
+    color: #7289DA;
+    cursor: pointer
+}
+
+.cta__37ae5 {
+    color: #7289DA!important;
+    display: inline;
+    height: auto;
+    margin-left: 4px;
+    min-height: auto;
+    min-width: auto;
+    padding: 0
+}
+
+.selectionCircle__36dee {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #7289DA,inset 0 0 0 4px var(--background-primary);
+    cursor: default;
+    height: calc(100% + 4px);
+    left: -2px;
+    pointer-events: none;
+    position: absolute;
+    top: -2px;
+    width: calc(100% + 4px)
+}
+
+.checkmark__36dee {
+  color: #7289DA;
+}
+
+.checked__87bf1{
+    opacity: 1;
+    background-color:#7289DA !important;
+    path {
+        fill:#7289DA
+    }
+}
+
+:where(.visual-refresh) .checkbox_f525d3.checked_f525d3 {
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+
+.newMessagesBar__0f481 {
+  background-color: #7289DA;
+  border-radius:
+0 0 8px 8px;
+  box-shadow: var(--elevation-low);
+  height: 32px;
+  top: 0;
+  z-index: 3;
+}
+
+.fakeLink_ada32f {
+    color: #7289DA;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+}
+
+.message__5126c.replying__5126c.selected__5126c, .mouse-mode.full-motion .message__5126c.replying__5126c:hover, .mouse-mode.full-motion.visual-refresh .message__5126c.replying__5126c:hover, .visual-refresh .message__5126c.replying__5126c.selected__5126c {
+    background: var(--brand-10a);
+}
+
+.selectorButton_c6d3dc:before {
+    background: var(--brand-500);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #7289DA;
+    content: &quot; &quot;;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.images-dark .krispLogo_e131a9 {
+    background-image: url(https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg);
+}
+
+.icon_f43ba5 {
+    content: url(&quot;https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg&quot;);
+}
+
+
+.flowerStarContainer__3e3b0.gameVerifiedIcon_cc46f0 {
+    .flowerStar__3e3b0 {
+        path{
+        fill: #7289DA !important;
+        }
+    }
+}
+
+.visual-refresh .reaction__23977.reactionMe__23977 {
+    background-color: rgba(78, 93, 148, 0.4);
+    border-color: #7289DA;
+}
+
+.button__6d791.active__6d791 {
+    path{
+        fill:#7289DA !important;
+    }
+}
+
+.colorStreamerMode__6e2b9 {
+    --custom-notice-background: var(--youtube);
+    --custom-notice-text: var(--white-500);
+    --custom-notice-button-hover: var(--youtube);
+}
+
+.streamerModeEnabledBtn_aa3ffd {
+    background-color: var(--youtube-tertiary);
+    border-radius: 3px;
+    color: var(--white-500);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.streamerModeEnabledBtn_aa3ffd:hover {
+    background-color: var(--youtube-secondary)
+}
+
+.streamerModeEnabledBtn_aa3ffd.disabled_aa3ffd {
+    background-color: var(--youtube);
+    cursor: default;
+    opacity: .5
+}
+
+/* Nitro */
+
+.tabBarItemContainer_c7e907 {
+    path{
+        fill:#71c5e7;
+    }
+}
+
+.tierAccomplished_c44edb, .tierCurrent_c44edb, .tierFirst_c44edb {
+    background: #71c5e7;
+}
+
+.perksDemoContainer__5dec7 {
+    path {
+        d:('M15 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z');
+        d:('M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1 1 0 0 0 0 2H8a1 1 0 1 1 0 2H6a1 1 0 1 0 0 2h1.25A8 8 0 1 0 15 4H7Zm8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z');
+        d:('M2.5 10a1 1 0 0 0 0-2H2a1 1 0 0 0 0 2h.5Z');
+        fill:#71c5e7
+    }
+}
+
+.text__87e56 {
+    color: #71c5e7;
+}
+
+.premiumIcon__5d473 {
+    color: #71c5e7;
+    margin-left: 3px;
+}
+
+.guildBoostBadge__5dba5 {
+    color: #71c5e7;
+    margin-right: 6px;
+}
+
+.boostIcon__37ae5 {
+    color: #71c5e7;
+    margin-right: 4px;
+}
+
+.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
+    background-color: hsl(var(--green-400-hsl)/.1);
+    border: 1px solid hsl(var(--green-400-hsl)/.1);
+    color: rgb(110, 197, 126)
+}
+
+.navItem__551b0.selected__551b0 .navItemIcon__551b0 {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 svg {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 {
+    border-left-color: #7289DA;
+    color: #7289DA;
+    background-color: rgba(78, 93, 148, .25);
+}
+
+.premiumLabel_e681d1{
+    path {
+        fill:#71c5e7
+    }
+}
+
+.selected_e681d1{
+    path {
+        fill:white
+    }
+}
+
+.pill_f8e6bf {
+    background-image: linear-gradient(92deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    border-radius: 10px;
+    color: var(--white);
+    left: 24px;
+    padding: 0 8px;
+    position: absolute;
+    top: -8px;
+    z-index: 30;
+}
+
+.nitroGradientBorderHover__1f069:before {
+    background: linear-gradient(95.07deg,  #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%), var(--premium-tier-2-purple-for-gradients);
+    border-radius: inherit;
+    content: &quot;&quot;;
+    inset: -2px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.tierCard_a45ed3 {
+    background-image: linear-gradient(92deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    border-radius: var(--radius-lg);
+    color: var(--white-500);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.expandedProgressBarSelectFriendsCTA_a61c56 {
+    background: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    background-clip: padding-box;
+    color: var(--white);
+    flex: 1;
+}
+
+.tier2PlanComparisonTableBackground_a45ed3 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .1), rgba(113, 197, 231, .1));
+}
+
+.tier2ColumnOuter_e4ef5c, .tier2ColumnOuterBackground_e4ef5c {
+    border: 2px solid #718ae7;
+    height: 100%;
+}
+
+.theme-dark .userAvatarProgressBarUnit_a61c56 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .3), rgba(113, 197, 231, .3));
+}
+
+.avatarProgressBarUnitConnectorBase_a61c56 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .3), rgba(113, 197, 231, .3));
+    height: 100%;
+    width: 100%;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
+
+.theme-dark .userAvatarProgressBarUnitNum_a61c56 {
+    background: var(--gradients-nitro-nitro-horizontal, linear-gradient(90deg, #718ae7 0, #9dd7ee 100%));
+}
+
+.expandedProgressBarSelectFriendsIcon_a61c56 {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/3b9b1649f78941df.svg');
+}
+
+.tier2__84995.banner__84995 {
+    background-image: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+}
+
+.premiumIndicator__43963 {
+    background-color: #7289DA;
+}
+
+.guildBoostBadgeWithBoosts_f9f04c {
+    color: #71c5e7;
+    opacity: 1;
+}
+
+.progressBarMarkerUnlocked__1f1cb .progressBarMarkerIndicator__1f1cb {
+    background: #71c5e7;
+    border-radius: 100%;
+    content: &quot;&quot;;
+    height: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    z-index: 0;
+}
+
+.progress__823e1.half__823e1 {
+    background: linear-gradient(90deg, rgb(113, 138, 231), var(--bg-mod-subtle));
+}
+
+.progressBarFill_b28bb7 {
+    background-image: linear-gradient(90deg, rgb(113, 138, 231) 0, var(--white-500) 100%);
+    left: 0;
+    z-index: 2;
+}
+
+
+/* Speaking */
+
+.voiceIcon_adebba {
+    display: block;
+    flex-shrink: 0;
+    opacity: 1;
+    color: #b90202 !important;
+}
+
+.speaking_adebba .avatar_adebba {
+    outline: 1px solid #FA003F;
+    outline-offset: 2px;
+}
+
+.border_f910d0.speaking_f910d0 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating);
+}
+
+.avatarSpeaking__07f91 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
+}
+
+.border__2f4f7.speaking__2f4f7 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
+}
+
+.avatarSpeaking__44b0c {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
+}
+</style>
+  <script />
+</svg:svg>
