@@ -168,6 +168,11 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+/* additional version of sm\/normal*/
+.text-sm\/normal__623de {
+    font-family: Determination Sans;
+}
+
 .cf48127484dbde85-text-sm\/medium {
     font-family: Determination Sans;
 }
@@ -197,7 +202,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 /* additional version of md\/medium*/
-.text-md\/medium__20a53 {
+.text-md\/medium__20a53, .overflow_b0dfc2 {
     font-family: Determination Mono;
 }
 
