@@ -308,6 +308,11 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+/* additional version of xm\/medium*/
+.text-xs\/medium__623de{
+    font-family: Determination Sans;
+}
+
 .cf48127484dbde85-heading-xs\/semibold {
     font-family: Determination Mono;
 }
@@ -345,6 +350,11 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .cf48127484dbde85-heading-md\/medium {
+    font-family: Determination Sans;
+}
+
+/* additional version of md\/medium*/
+.text-md\/medium__20a53 {
     font-family: Determination Sans;
 }
 
