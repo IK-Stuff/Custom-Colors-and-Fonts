@@ -16,23 +16,20 @@
 
 /* Revert Visual Refresh Server List - By Scabau (scattagain) */
 
-@import url('https://raw.githubusercontent.com/scattagain/VencordStuff/4fa465629d6d71092c20aa11245abb6ad4a44641/css/GuildbarRevert.css');
+@import url(https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css);
 
 :root {
-    /* Only include this part if you wish to change these variables */
-    /* You can change the size but only to be less than 48px, you must change the blob scale too */
     --guildbar-avatar-size: 40px;
     --blob-scale: 40;
 
     --guildbar-folder-size: var(--guildbar-avatar-size);
     --folder-blob-scale: var(--blob-scale);
 
-}.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
-    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
-    left: var(--custom-guild-list-width);
-    bottom: 0px;
-    border-radius: 0px;
-    border: none;
+    --custom-guild-list-padding: 12px;
+    --custom-guild-list-width: calc(
+        max(var(--guildbar-avatar-size), var(--guildbar-folder-size))
+        + var(--custom-guild-list-padding) * 2
+    );
 }
 
 
