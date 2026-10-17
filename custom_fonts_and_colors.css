@@ -152,8 +152,24 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+.experimental\/body-xs\/medium_cf4812 {
+    font-family: Determination Mono;
+}
+
 .cf48127484dbde85-text-xs\/semibold {
     font-family: Determination Mono;
+}
+
+.experimental\/body-xs\/semibold_cf4812 {
+    font-family: Determination Sans;
+}
+
+.experimental\/body-md\/semibold_cf4812 {
+    font-family: Determination Sans;
+}
+
+.experimental\/body-md\/medium_cf4812 {
+    font-family: Determination Sans;
 }
 
 .cf48127484dbde85-text-xs\/bold {
@@ -250,6 +266,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
+.experimental\/heading-xl\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
 .cf48127484dbde85-text-xl\/bold {
     font-family: Determination Mono;
 }
@@ -306,6 +326,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 
 .cf48127484dbde85-heading-xs\/medium {
     font-family: Determination Sans;
+}
+
+.experimental\/heading-xs\/medium_cf4812 {
+    font-family: Determination Mono;
 }
 
 /* additional version of xm\/medium*/
