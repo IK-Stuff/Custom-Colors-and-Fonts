@@ -217,6 +217,11 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 .cf48127484dbde85-text-md\/medium {
     font-family: Determination Sans;
 }
+
+.experimental\/body-sm\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
 /* additional version of md\/medium*/
 .text-md\/medium__20a53, .overflow_b0dfc2 {
     font-family: Determination Mono;
@@ -243,6 +248,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .cf48127484dbde85-text-lg\/semibold {
+    font-family: Determination Mono;
+}
+
+.experimental\/heading-lg\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -287,6 +296,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .cf48127484dbde85-text-xxl\/semibold {
+    font-family: Determination Mono;
+}
+
+.experimental\/heading-xxl\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -341,6 +354,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
+.experimental\/heading-xs\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
 .cf48127484dbde85-heading-xs\/bold {
     font-family: Determination Mono;
 }
@@ -354,6 +371,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .cf48127484dbde85-heading-sm\/medium {
+    font-family: Determination Sans;
+}
+
+.experimental\/heading-sm\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -399,6 +420,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .cf48127484dbde85-heading-lg\/medium {
+    font-family: Determination Sans;
+}
+
+.experimental\/heading-lg\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -908,6 +933,10 @@ body {
     font-size: 2.125rem
 }
 
+.experimental\/display-md_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
 .display-lg_cf4812 {
     font-family: "Minecraft Seven v2";
     font-size: 44px;
@@ -917,6 +946,10 @@ body {
 
 .display-lg_cf4812.fontScaling_cf4812 {
     font-size: 2.75rem
+}
+
+.experimental\/display-lg_cf4812 {
+    font-family: Minecraft Seven v2;
 }
 
 .text-lg\/semibold_cf4812 {
@@ -1139,6 +1172,10 @@ body {
 }
 
 .display-sm_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.experimental\/display-sm_cf4812 {
     font-family: Minecraft Seven v2;
 }
 
@@ -1530,6 +1567,14 @@ rgba(114, 137, 218, 0.24);
 }
 
 /* Nitro */
+
+.experimental\/nitro-md_cf4812 {
+    font-family: Minecraft Seven V2;
+}
+
+.experimental\/nitro-sm_cf4812 {
+    font-family: Minecraft Seven V2;
+}
 
 .tabBarItemContainer_c7e907 {
     path{
