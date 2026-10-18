@@ -447,6 +447,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+.experimental\/heading-xl\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
 .cf48127484dbde85-heading-xl\/semibold {
     font-family: Determination Mono;
 }
@@ -1224,7 +1228,6 @@ body {
     line-height: 1.375em;
     margin: 16px 0 4px
 }
-
 
 /**
 The fonts end here
