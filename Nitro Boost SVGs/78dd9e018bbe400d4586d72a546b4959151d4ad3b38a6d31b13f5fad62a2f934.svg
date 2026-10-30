@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="2.79 2.79 18.42 18.42"
+   fill="none"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="48.125"
+     inkscape:cx="12"
+     inkscape:cy="12"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     d="M12 3.29999L4.45996 7.64999V16.35L12 20.71L19.54 16.35V7.64999L12 3.29999ZM16.93 14.85L12 17.69L7.07996 14.85V9.15999L12 6.30999L16.93 9.15999V14.85Z"
+     fill="#FF6BFA"
+     id="path1"
+     style="fill:#73c0ff;fill-opacity:1" />
+  <path
+     d="M15.6899 8.44L7.06995 13.42V9.15L11.9899 6.31L15.6899 8.44Z"
+     fill="#FFDEF9"
+     id="path2"
+     style="fill:#def0ff;fill-opacity:1" />
+  <path
+     d="M16.93 9.14999V10.67L8.39996 15.61L7.07996 14.84L16.93 9.14999Z"
+     fill="#FFDEF9"
+     id="path3"
+     style="fill:#def0ff;fill-opacity:1" />
+  <path
+     d="M9.62 16.31L16.93 12.09V14.84L11.99 17.7L9.62 16.31Z"
+     fill="#FFDEF9"
+     id="path4"
+     style="fill:#def0ff;fill-opacity:1" />
+  <path
+     d="M12 3.29001V6.31001L16.93 9.15001L19.54 7.65001L12 3.29001Z"
+     fill="#FFB0FF"
+     id="path5"
+     style="fill:#b0dbff;fill-opacity:1" />
+  <path
+     d="M7.06996 14.85L4.45996 16.35L12 20.71V17.69L7.06996 14.85Z"
+     fill="#E34BD1"
+     id="path6"
+     style="fill:#558de6;fill-opacity:1" />
+  <path
+     d="M16.9299 9.15L15.6899 8.44L7.06995 13.42V14.85L16.9299 9.15Z"
+     fill="white"
+     id="path7" />
+  <path
+     d="M16.93 10.67V12.09L9.62002 16.31L8.40002 15.61L16.93 10.67Z"
+     fill="white"
+     id="path8" />
+</svg>
