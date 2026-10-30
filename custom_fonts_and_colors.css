@@ -38,6 +38,12 @@
     --blurple-44: hsl(227, 58%, 65%);
     --blurple-59: hsl(227, 31%, 44%);
     --green-360: var(--voice-red);
+    --illo-blue-30: hsl(189, 88%, 80%);
+    --illo-blurple-40: hsl(225, 86%, 64%);
+    --illo-blue-40: hsl(194, 100%, 65%);
+    --badge-epic-text: hsl(189, 88%, 80%);
+    --badge-epic-border-gradient-end: var(--illo-purple-40);
+    --badge-epic-border-gradient-start: var(--illo-pink-40);
 }
 
 :root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
@@ -211,6 +217,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .experimental\/body-sm\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.experimental\/body-sm\/normal_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -1743,6 +1753,13 @@ rgba(114, 137, 218, 0.24);
     background: var(--gradients-nitro-nitro-horizontal, linear-gradient(90deg, #718ae7 0, #9dd7ee 100%));
 }
 
+.theme-darker {
+  --badge-epic-background: hsla(219, 86%, 64%, 0.239);
+  --badge-epic-border-gradient-end: var(--illo-blurple-40);
+  --badge-epic-border-gradient-start: var(--illo-blue-40);
+  --badge-epic-text: var(--illo-blue-30);
+}
+
 .expandedProgressBarSelectFriendsIcon_a61c56 {
     content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/3b9b1649f78941df.svg');
 }
@@ -1791,6 +1808,11 @@ rgba(114, 137, 218, 0.24);
     z-index: 2;
 }
 
+.rarity-epic_c2b88c {
+  --rarity-ring-start: var(--badge-epic-border-gradient-start);
+  --rarity-ring-end: var(--badge-epic-border-gradient-end);
+  color: var(--badge-epic-text);
+}
 
 /* Speaking */
 
