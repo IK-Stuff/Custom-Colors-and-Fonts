@@ -38,12 +38,12 @@
     --blurple-44: hsl(227, 58%, 65%);
     --blurple-59: hsl(227, 31%, 44%);
     --green-360: var(--voice-red);
-    --illo-blue-30: hsl(189, 88%, 80%);
+    --illo-sky-blue-30: hsl(189, 88%, 80%);
     --illo-blurple-40: hsl(225, 86%, 64%);
-    --illo-blue-40: hsl(194, 100%, 65%);
+    --illo-sky-blue-40: hsl(194, 100%, 65%);
     --badge-epic-text: hsl(189, 88%, 80%);
-    --badge-epic-border-gradient-end: var(--illo-purple-40);
-    --badge-epic-border-gradient-start: var(--illo-pink-40);
+    --badge-epic-border-gradient-end: var(--illo-blurple-40);
+    --badge-epic-border-gradient-start: var(--illo-sky-blue-40);
 }
 
 :root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
@@ -1630,7 +1630,6 @@ rgba(114, 137, 218, 0.24);
     content: url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/185ece790f20d870.svg')
 }
 
-
 .text__87e56 {
     color: #71c5e7;
 }
@@ -1756,8 +1755,8 @@ rgba(114, 137, 218, 0.24);
 .theme-darker {
   --badge-epic-background: hsla(219, 86%, 64%, 0.239);
   --badge-epic-border-gradient-end: var(--illo-blurple-40);
-  --badge-epic-border-gradient-start: var(--illo-blue-40);
-  --badge-epic-text: var(--illo-blue-30);
+  --badge-epic-border-gradient-start: var(--illo-sky-blue-40);
+  --badge-epic-text: var(--illo-sky-blue-30);
 }
 
 .expandedProgressBarSelectFriendsIcon_a61c56 {
@@ -1813,6 +1812,76 @@ rgba(114, 137, 218, 0.24);
   --rarity-ring-end: var(--badge-epic-border-gradient-end);
   color: var(--badge-epic-text);
 }
+
+    /* Nitro Server Boost Tiers */
+
+        /*badeGraphic__6f97a*/
+        img.badgeGraphic__6f97a[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+
+        /*nextLevelArt*/
+        img.nextLevelArt__8f056[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.nextLevelArt__8f056[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.nextLevelArt__8f056[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.nextLevelArt__8f056[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.nextLevelArt__8f056[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.nextLevelArt__8f056[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.nextLevelArt__8f056[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.nextLevelArt__8f056[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.nextLevelArt__8f056[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+        /*tierTimelineIcon__64bbc*/
+        img.tierTimelineIcon__64bbc[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+        /*badgeSlotIcon__6db38*/
+        img.badgeSlotIcon__6db38[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
 
 /* Speaking */
 
