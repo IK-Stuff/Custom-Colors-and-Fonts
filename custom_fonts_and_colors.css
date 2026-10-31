@@ -44,6 +44,7 @@
     --badge-epic-text: hsl(189, 88%, 80%);
     --badge-epic-border-gradient-end: var(--illo-blurple-40);
     --badge-epic-border-gradient-start: var(--illo-sky-blue-40);
+    --illo-pink-40: hsl(194, 100%, 65%);
 }
 
 :root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
@@ -1813,10 +1814,41 @@ rgba(114, 137, 218, 0.24);
   color: var(--badge-epic-text);
 }
 
+.progressBarActive_c50892 {
+  background: linear-gradient(90deg,#4eeaff,rgba(78, 234, 255, 0.4));
+  box-shadow: inset 0 0 4px 0 rgba(128, 225, 255, 0.3);
+}
+
     /* Nitro Server Boost Tiers */
 
+    .headerGradient__00843 {
+  background: radial-gradient(ellipse 100% 70% at 50% 0,rgba(89, 115, 209, 0.6) 0,rgba(47, 95, 140, 0.3) 50%,transparent 80%),var(--background-base-lowest);
+  inset: 0;
+  position: absolute;
+}
+
+    img[src*="f91111a2"]{
+        content:url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/f91111a24ca4c59e87a462e8a3523938628e03e3723c31e5681991a07b0acf48.png");
+    }
+
+
+        /*contain_f90522*/
+
+        img.contain_f90522[src*="33e98755"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/33e98755a49cf85d07b8189a0001926c17d91599d53662a39999329f5253254f.svg");
+        }
+
+        img.contain_f90522[src*="3bc18204"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/3bc18204c2bf43975ded85a602c7816d032bc07cf9b1d5589e52404f9bc1d687.svg");
+        }
+
+        img.contain_f90522[src*="cb869ee4"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/cb869ee40a8ed5d6210e69a02cebbf03025be47006b310ec2564f74f6ad1dff8.svg");
+        }
+        
 
         /*badgeGraphic__6f97a*/
+
         img.badgeGraphic__6f97a[src*="de982c9d"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
         }
@@ -1846,6 +1878,7 @@ rgba(114, 137, 218, 0.24);
         }
 
         /*nextLevelArt*/
+
         img.nextLevelArt__8f056[src*="de982c9d"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
         }
@@ -1875,6 +1908,7 @@ rgba(114, 137, 218, 0.24);
         }
 
         /*tierTimelineIcon__64bbc*/
+
         img.tierTimelineIcon__64bbc[src*="de982c9d"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
         }
@@ -1904,6 +1938,7 @@ rgba(114, 137, 218, 0.24);
         }
 
         /*badgeSlotIcon__6db38*/
+
         img.badgeSlotIcon__6db38[src*="de982c9d"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
         }
@@ -1931,6 +1966,7 @@ rgba(114, 137, 218, 0.24);
         img.badgeSlotIcon__6db38[src*="90ced1c5"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
         }
+
 
 /* it took some digging, but i found out that something like [src*=] looks for the link/file in the original code under that image/class in the element and using 'content' you can replace that specific instance with what you want. I was already aware of content (obv) */
 
