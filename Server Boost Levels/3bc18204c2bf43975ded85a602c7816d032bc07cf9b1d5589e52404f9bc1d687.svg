@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   viewBox="0 0 64 64"
+   width="64"
+   height="64"
+   fill="none"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="3bc18204c2bf43975ded85a602c7816d032bc07cf9b1d5589e52404f9bc1d687.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <svg:defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview14"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.046875"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14" />
+  <svg:path
+     fill="#FBE6FF"
+     d="M44 32h-4v-4h4v4ZM44 24h-4v-4h-4v-8h4V8h4v16Z"
+     id="path1"
+     style="fill:#e6f0ff;fill-opacity:1" />
+  <svg:path
+     fill="#DEC2FC"
+     d="M20 40h-4v-4h-4v-8h8v12Z"
+     id="path2"
+     style="fill:#c2d0fc;fill-opacity:1" />
+  <svg:path
+     fill="#FD99E9"
+     d="M32 40h-4V28h4v12ZM48 12h4v4h4v4h-4v4h-4v4h-4v-8h4v-4h-4V8h4v4ZM36 24h-4v-8h4v8Z"
+     id="path3"
+     style="fill:#99edfd;fill-opacity:1" />
+  <svg:path
+     fill="#fff"
+     d="M28 40h4v4h-8v-8h4v4ZM12 36h4v4H8V28h4v8ZM32 24h4v-4h4v4h4v4h-4v4h-4v-4h-8V16h4v8ZM48 20h-4v-4h4v4ZM36 16h-4v-4h4v4ZM40 12h-4V8h4v4ZM44 8h-4V4h4v4Z"
+     id="path4" />
+  <svg:path
+     fill="#B3269C"
+     d="M48 48h-4V28h4v-4h4v-4h4v20h-4v4h-4v4Z"
+     id="path5"
+     style="fill:#267ab3;fill-opacity:1" />
+  <svg:path
+     fill="#612CAF"
+     d="M20 48h4v4h-8v-4h-4v-8h8v8Z"
+     id="path6"
+     style="fill:#2c3daf;fill-opacity:1" />
+  <svg:path
+     fill="#FF4CD2"
+     d="M44 52h-4v-4h-4v-4h-4V28h4v4h8v20Z"
+     id="path7"
+     style="fill:#4ce5ff;fill-opacity:1" />
+  <svg:path
+     fill="#B754EA"
+     d="M32 56h-4v-4h4v4ZM28 52h-4v-4h-4v-4h8v8Z"
+     id="path8"
+     style="fill:#5484ea;fill-opacity:1" />
+  <svg:path
+     fill="#CF51E2"
+     d="M32 48h4v4h4v4h-8v-4h-4v-8h4v4Z"
+     id="path9"
+     style="fill:#267ab3;fill-opacity:1" />
+  <svg:path
+     fill="#E39CF1"
+     d="M44 56h-4v-4h4v4ZM40 52h-4v-4h4v4ZM36 48h-4v-4h4v4Z"
+     id="path10"
+     style="fill:#99edfd;fill-opacity:1" />
+  <svg:path
+     fill="#A056F2"
+     d="M24 60h-4v-4h4v4ZM20 56h-4v-4h4v4ZM16 52h-4v-4h4v4ZM12 48H8v-8h4v8ZM24 44h-4V32h4v12Z"
+     id="path11"
+     style="fill:#5666f2;fill-opacity:1" />
+  <svg:path
+     fill="#651585"
+     d="M28 56h16v4H24v-4h-4v-4h8v4Z"
+     id="path12"
+     style="fill:#152d85;fill-opacity:1" />
+  <svg:path
+     fill="#8C1381"
+     d="M48 60h-4V48h4v-4h4v-4h4v8h-4v8h-4v4Z"
+     id="path13"
+     style="fill:#13448c;fill-opacity:1" />
+  <svg:path
+     fill="#000"
+     d="M48 60v-4h4v8H20v-4h28ZM20 60h-4v-4h4v4ZM16 56h-4v-4h4v4ZM56 56h-4v-8h4v8ZM12 52H8v-4h4v4ZM20 28H8v20H4V24h16v4ZM60 48h-4V16h4v32ZM28 36h-4v-4h-4v-4h4V16h4v20ZM32 16h-4v-4h4v4ZM56 16h-4v-4h4v4ZM36 12h-4V8h4v4ZM52 12h-4V8h4v4ZM40 8h-4V4h4v4ZM48 8h-4V4h4v4ZM44 4h-4V0h4v4Z"
+     id="path14" />
+  <script />
+</svg:svg>
