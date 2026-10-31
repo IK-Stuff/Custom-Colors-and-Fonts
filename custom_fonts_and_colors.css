@@ -1815,9 +1815,35 @@ rgba(114, 137, 218, 0.24);
 
     /* Nitro Server Boost Tiers */
 
+
+
         /*badeGraphic__6f97a*/
-        img.badgeGraphic__6f97a[src*="b5ce61b9"] {
+        img.badeGraphic__6f97a[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.badeGraphic__6f97a[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.badeGraphic__6f97a[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.badeGraphic__6f97a[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.badeGraphic__6f97a[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.badeGraphic__6f97a[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.badeGraphic__6f97a[src*="b5ce61b9"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.badeGraphic__6f97a[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.badeGraphic__6f97a[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
         }
 
         /*nextLevelArt*/
@@ -1879,9 +1905,36 @@ rgba(114, 137, 218, 0.24);
         }
 
         /*badgeSlotIcon__6db38*/
+        img.badgeSlotIcon__6db38[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
         img.badgeSlotIcon__6db38[src*="b5ce61b9"] {
             content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
         }
+        img.badgeSlotIcon__6db38[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+/* it took some digging, but i found out that something like [src*=] looks for the link/file in the original code under that image/class in the element and using 'content' you can replace that specific instance with what you want. I was already aware of content (obv) */
+
 
 /* Speaking */
 
