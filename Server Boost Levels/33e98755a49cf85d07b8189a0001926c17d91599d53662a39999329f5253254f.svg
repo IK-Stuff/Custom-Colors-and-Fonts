@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   viewBox="0 0 64 64"
+   width="64"
+   height="64"
+   fill="none"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="33e98755a49cf85d07b8189a0001926c17d91599d53662a39999329f5253254f.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <svg:defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.046875"
+     inkscape:cx="32"
+     inkscape:cy="32"
+     inkscape:window-width="2560"
+     inkscape:window-height="1373"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <svg:path
+     fill="#fbe6ff"
+     d="m 24,20 h -4 v -8 h 4 z M 32,8 H 28 V 4 h 4 z"
+     id="path1"
+     style="display:inline;fill:#e6f0ff;fill-opacity:1" />
+  <svg:path
+     fill="#ffffff"
+     d="m 32,44 h -4 v -8 h 4 z M 28,20 h 4 v 4 h 4 v 4 h -8 v 8 H 24 V 24 h -4 v -4 h 4 V 8 h 4 z"
+     id="path2"
+     style="display:inline" />
+  <svg:path
+     fill="#ffffff"
+     d="m 36,36 h -4 v -4 h 4 z m 8,-12 h -8 v -4 h 8 z M 20,20 h -4 v -4 h 4 z"
+     id="path3"
+     style="display:inline" />
+  <svg:path
+     fill="#ff4cd2"
+     d="m 20,28 h 4 v 8 h 4 v 8 H 24 V 40 H 20 V 36 H 16 V 24 h 4 z m 16,16 h -4 v -8 h 4 v -4 h -4 v 4 h -4 v -8 h 8 v -4 h 8 v -4 h 4 v 12 h -4 v 4 h -4 v 4 h -4 z"
+     id="path4"
+     style="display:inline;fill:#4ce5ff;fill-opacity:1" />
+  <svg:path
+     fill="#8c1381"
+     d="M 28,56 H 24 V 52 H 20 V 48 H 16 V 36 h 4 v 4 h 4 v 4 h 4 z"
+     id="path5"
+     style="display:inline;fill:#13448c;fill-opacity:1" />
+  <svg:path
+     fill="#fd99e9"
+     d="M 32,60 H 28 V 44 h 4 z M 48,40 h -4 v -8 h 4 z M 24,28 h -4 v -4 h 4 z m -4,-4 h -4 v -4 h 4 z M 36,12 h 4 v 4 h 4 v 4 h -8 v 4 H 32 V 20 H 28 V 8 h 8 z"
+     id="path6"
+     style="display:inline;fill:#99edfd;fill-opacity:1" />
+  <svg:path
+     fill="#b3269c"
+     d="m 28,60 h -4 v -4 h 4 z m 8,0 H 32 V 44 h 4 v -4 h 4 v -4 h 4 v 12 h -4 v 8 H 36 Z M 24,56 h -4 v -4 h 4 z m -4,-4 h -4 v -4 h 4 z"
+     id="path7"
+     style="display:inline;fill:#267ab3;fill-opacity:1" />
+  <svg:path
+     fill="#000000"
+     d="m 36,60 v 4 H 24 v -4 z m -12,0 h -4 v -4 h 4 z m 16,0 h -4 v -4 h 4 z M 20,56 h -4 v -4 h 4 z m 24,0 h -4 v -8 h 4 z M 16,52 H 12 V 16 h 4 z m 32,-4 h -4 v -8 h 4 z m 4,-8 H 48 V 20 h 4 z M 48,20 h -4 v -4 h 4 z M 20,16 h -4 v -4 h 4 z m 24,0 h -4 v -4 h 4 z M 24,12 H 20 V 8 h 4 z m 16,0 H 36 V 8 h 4 z M 28,8 H 24 V 4 h 4 z m 8,0 H 32 V 4 h 4 z M 32,4 H 28 V 0 h 4 z"
+     id="path8"
+     style="display:inline" />
+  <script />
+</svg:svg>
