@@ -159,11 +159,19 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
-.experimental\/body-xs\/medium_cf4812 {
+.body-xs\/medium_cf4812 {
     font-family: Determination Mono;
 }
 
+.body-xs\/medium__623de {
+    font-family: Determination Sans;
+}
+
 .text-xs\/medium__80bf8 {
+    font-family: Determination Sans;
+}
+
+.body-xs\/normal_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -171,20 +179,32 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/body-xs\/semibold_cf4812 {
+.body-xs\/semibold_cf4812 {
     font-family: Determination Sans;
 }
 
-.experimental\/body-md\/semibold_cf4812 {
+.body-md\/semibold_cf4812 {
     font-family: Determination Sans;
 }
 
-.experimental\/body-md\/medium_cf4812 {
+.body-md\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
-.experimental\/body-lg\/semibold_cf4812 {
+.body-md\/medium__20a53 {
+    font-family: Determination Sans;
+}
+
+.body-md\/normal_cf4812 {
+    font-family: Determination Mono;
+}
+
+.body-lg\/semibold_cf4812 {
     font-family: Minecraft Seven v2;
+}
+
+.body-lg\/medium_cf4812 {
+    font-family: Determination Mono;
 }
 
 .cf48127484dbde85-text-xs\/bold {
@@ -217,15 +237,23 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/body-sm\/medium_cf4812 {
+.body-sm\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
-.experimental\/body-sm\/normal_cf4812 {
+.body-sm\/medium__07f91 {
     font-family: Determination Sans;
 }
 
-.experimental\/heading-sm\/semibold_cf4812 {
+.body-sm\/normal_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-sm\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.heading-sm\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -276,7 +304,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/heading-lg\/semibold_cf4812 {
+.heading-lg\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -300,7 +328,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/heading-xl\/semibold_cf4812 {
+.heading-xl\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -324,7 +352,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/heading-xxl\/semibold_cf4812 {
+.heading-xxl\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -366,7 +394,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
-.experimental\/heading-xs\/medium_cf4812 {
+.heading-xs\/medium_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -379,7 +407,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
-.experimental\/heading-xs\/semibold_cf4812 {
+.heading-xs\/semibold_cf4812 {
     font-family: Determination Mono;
 }
 
@@ -399,7 +427,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
-.experimental\/heading-sm\/medium_cf4812 {
+.heading-sm\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -448,7 +476,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
-.experimental\/heading-lg\/medium_cf4812 {
+.heading-lg\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -472,7 +500,7 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
-.experimental\/heading-xl\/medium_cf4812 {
+.heading-xl\/medium_cf4812 {
     font-family: Determination Sans;
 }
 
@@ -962,7 +990,7 @@ body {
     font-size: 2.125rem
 }
 
-.experimental\/display-md_cf4812 {
+.display-md_cf4812 {
     font-family: Minecraft Seven v2;
 }
 
@@ -977,7 +1005,7 @@ body {
     font-size: 2.75rem
 }
 
-.experimental\/display-lg_cf4812 {
+.display-lg_cf4812 {
     font-family: Minecraft Seven v2;
 }
 
@@ -1204,7 +1232,7 @@ body {
     font-family: Minecraft Seven v2;
 }
 
-.experimental\/display-sm_cf4812 {
+.display-sm_cf4812 {
     font-family: Minecraft Seven v2;
 }
 
@@ -1600,11 +1628,11 @@ rgba(114, 137, 218, 0.24);
 
 /* Nitro */
 
-.experimental\/nitro-md_cf4812 {
+.nitro-md_cf4812 {
     font-family: Minecraft Seven V2;
 }
 
-.experimental\/nitro-sm_cf4812 {
+.nitro-sm_cf4812 {
     font-family: Minecraft Seven V2;
 }
 

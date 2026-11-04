@@ -186,3 +186,12 @@ nav.guilds__5e434, #channels {
 .container_e131a9 {
   padding: 15px;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/*Remove Back and Forward Arrows - by @her.kiwi (IK_Stuff) */
+.backForwardButtons__63abb {
+    display: none;
+}
