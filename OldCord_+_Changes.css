@@ -1,197 +1,2114 @@
 /**
- * @name OldCord + Changes
- * @author User Collection
- * @description Collection of fixes and changes to Discord refresh. Credits before each string.
+ * @name Custom Fonts and Colors
+ * @author I.K. Stuff
+ * @authorLink https://github.com/IK-Stuff
+ * @description Uses custom fonts I have, but is easily edited. Feel free to change them up! Fonts used are the Minecraft and Determination Mono and Sans made by Harry Wakamatsu.
+ * @invite 6RctFeCKmz
 */
 
+/* import */
 
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/OldCord_%2B_Changes.css');
 
-/* Compact / Hide Visual Refresh Title Bar - By Chloe (chloecinders) */
+@import url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/custom_background.css');
 
-@import url("https://raw.githubusercontent.com/G0d0fninjas/visual-refresh-compact-title-bar/refs/heads/main/desktop.css");
+/* placeholder */
 
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-/* Revert Visual Refresh Server List - By Scabau (scattagain) */
-
-@import url(https://raw.githubusercontent.com/scattagain/VencordStuff/refs/heads/main/css/GuildbarRevert.css);
-
-:root {
-    --guildbar-avatar-size: 40px;
-    --blob-scale: 40;
-
-    --guildbar-folder-size: var(--guildbar-avatar-size);
-    --folder-blob-scale: var(--blob-scale);
-
-    --custom-guild-list-padding: 12px;
-    --custom-guild-list-width: calc(
-        max(var(--guildbar-avatar-size), var(--guildbar-folder-size))
-        + var(--custom-guild-list-padding) * 2
-    );
+::placeholder,body,button,input,select,textarea {
+    font-family: "Determination Sans", "Determination Mono", "Minecraft Seven v2", monospace;
+    text-rendering: optimizeLegibility
 }
 
+/* root */
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-/* Don't Cover Server List With Panel - By Obsidian (obsidianninja11) */
-
-.visual-refresh section.panels__5e434 {
-  left: calc(var(--custom-guild-list-width));
-  width: calc(100% - var(--custom-guild-list-width));
-  box-sizing: border-box;
-  bottom: 0;
-  border-radius: 0;
-  border-bottom: none;
-  border-right: none;
+:root{
+    --font-code: "Determination Mono", "Determination Sans", monospace;
+    --blurple-50: hsl(227, 58%, 65%);
+    --guild-boosting-pink:hsl(197, 71%, 67%);
+    --guild-boosting-pink-refresh: hsl(197, 71%, 67%);
+    --youtube: linear-gradient(0deg, #6d0d13ff 0, #93161bff 21%, #b71f23ff 44%, #d12629ff 65%, #e12a2cff 85%, #e72c2eff 100%);
+    --youtube-secondary: hsl(356, 79%, 24%);
+    --youtube-tertiary: hsl(359, 80%, 54%);
+    --brand-500: hsl(227, 58%, 65%);
+    --text-link-new: hsl(227, 58%, 65%);
+    --text-link: hsl(227, 58%, 65%);
+    --opacity-blurple-60: hsla(227, 86%, 65%, 0.6);
+    --text-brand-new: hsl(227, 58%, 65%);
+    --blue-345-new: hsl(184, 54%, 58%);
+    --blurple-44: hsl(227, 58%, 65%);
+    --blurple-59: hsl(227, 31%, 44%);
+    --green-360: var(--voice-red);
+    --illo-sky-blue-30: hsl(189, 88%, 80%);
+    --illo-blurple-40: hsl(225, 86%, 64%);
+    --illo-sky-blue-40: hsl(194, 100%, 65%);
+    --badge-epic-text: hsl(189, 88%, 80%);
+    --badge-epic-border-gradient-end: var(--illo-blurple-40);
+    --badge-epic-border-gradient-start: var(--illo-sky-blue-40);
+    --illo-pink-40: hsl(194, 100%, 65%);
 }
 
-  .actionButtons_e131a9 button {
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: #058B00 !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: #058B00 !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+:root .userAvatarProgressBarUnitNum_a61c56 {
+    -webkit-background-clip: text !important;
+    background-clip: text;
+    color: transparent;
+}
+
+/** 
+The fonts start here
+To know what fonts are what, take a look at the Text Components tab under the Developer Only group| ↓↓↓↓↓↓↓↓↓↓↓↓
+This is assuming you're using Vencord, as I'm unsure how it works on BD | This method is no longer possible as of several updates ago, gl figuring out what's what
+Using this through Inspect Element won't do you any harm, but it will reset each time you reload Discord
+*/
+
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+    border: 0;
+    font-family: "Minecraft Seven v2";
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
     padding: 0;
-  }
-  .activityPanel__5e434 {
-    border-radius: inherit;
-  }
-
-  /* GameActivityToggle Fix (delete if you don't use) */
-
-  .container__37e49>.buttons__37e49 {
-    gap: 2px !important;
-  }
-  .container__37e49>.avatarWrapper__37e49 {
-    min-width: 32px !important;
-  }
-
-nav.guilds__5e434, #channels {
-  margin-bottom: 0 !important;
-}
-.sidebar__5e434:after {
-  display: none;
+    vertical-align: baseline
 }
 
-/* BetterFolders fix (delete if you don't use) */
-
-.vc-betterFolders-sidebar~section.panels__5e434 {
-  left: calc(var(--custom-guild-list-width)*2);
-  width: calc(100% - var(--custom-guild-list-width)*2) !important;
+.markup__75297 h1,.markup__75297 h2,.markup__75297 h3,.markup__75297 h4,.markup__75297 h5,.markup__75297 h6 {
+    color: var(--header-primary);
+    font-family: Minecraft Seven v2;
+    font-weight: 700;
+    line-height: 1.375em;
+    margin: 16px 0 4px
 }
 
-/* Hide the arrows (creates extra room) */
+/* New fonts since Discord keeps changing  them*/
 
-.micButtonParent__37e49>.buttonChevron__37e49 {
-  display: none;
-}
-.micButtonParent__37e49>.micButtonWithMenu__37e49 {
-  border-radius: var(--radius-sm);
+.cf48127484dbde85-text-xxs\/normal {
+    font-family: Determination Sans;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.cf48127484dbde85-text-xxs\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xxs\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xxs\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xxs\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-xs\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xs\/medium {
+    font-family: Determination Sans;
+}
+
+.body-xs\/medium_cf4812 {
+    font-family: Determination Mono;
+}
+
+.body-xs\/medium__623de {
+    font-family: Determination Sans;
+}
+
+.text-xs\/medium__80bf8 {
+    font-family: Determination Sans;
+}
+
+.body-xs\/normal_cf4812 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xs\/semibold {
+    font-family: Determination Mono;
+}
+
+.body-xs\/semibold_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-md\/semibold_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-md\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-md\/medium__20a53 {
+    font-family: Determination Sans;
+}
+
+.body-md\/normal_cf4812 {
+    font-family: Determination Mono;
+}
+
+.body-lg\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
+.body-lg\/medium_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xs\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xs\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-sm\/normal {
+    font-family: Determination Sans;
+}
+
+/* additional version of sm\/normal*/
+.text-sm\/normal__623de {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-sm\/medium {
+    font-family: Determination Sans;
+}
+
+/* additional version of sm\/medium*/
+.text-sm\/medium__07f91 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-sm\/semibold {
+    font-family: Determination Mono;
+}
+
+.body-sm\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-sm\/medium__07f91 {
+    font-family: Determination Sans;
+}
+
+.body-sm\/normal_cf4812 {
+    font-family: Determination Sans;
+}
+
+.body-sm\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-sm\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-sm\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-md\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-md\/medium {
+    font-family: Determination Sans;
+}
 
 
-/* Carti's Collapsible Panel - By carti (prt.scr) */
+
+/* additional version of md\/medium*/
+.text-md\/medium__20a53, .overflow_b0dfc2 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-md\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-md\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-md\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-lg\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-lg\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-lg\/semibold {
+    font-family: Determination Mono;
+}
+
+.heading-lg\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-lg\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-lg\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-xl\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xl\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xl\/semibold {
+    font-family: Determination Mono;
+}
+
+.heading-xl\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xl\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xl\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-text-xxl\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xxl\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-text-xxl\/semibold {
+    font-family: Determination Mono;
+}
+
+.heading-xxl\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xxl\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-text-xxl\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+/* ~~heading */
+
+.cf48127484dbde85-heading-xxs\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xxs\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xxs\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xxs\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xxs\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-xs\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xs\/medium {
+    font-family: Determination Sans;
+}
+
+.heading-xs\/medium_cf4812 {
+    font-family: Determination Mono;
+}
+
+/* additional version of xm\/medium*/
+.text-xs\/medium__623de{
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xs\/semibold {
+    font-family: Determination Mono;
+}
+
+.heading-xs\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xs\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xs\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-sm\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-sm\/medium {
+    font-family: Determination Sans;
+}
+
+.heading-sm\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-sm\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-sm\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-sm\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-md\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-md\/medium {
+    font-family: Determination Sans;
+}
+
+/* additional version of md\/medium*/
+.text-md\/medium__20a53 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-md\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-md\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-md\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-lg\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-lg\/medium {
+    font-family: Determination Sans;
+}
+
+.heading-lg\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-lg\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-lg\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-lg\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-xl\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xl\/medium {
+    font-family: Determination Sans;
+}
+
+.heading-xl\/medium_cf4812 {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xl\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xl\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xl\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+.cf48127484dbde85-heading-xxl\/normal {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xxl\/medium {
+    font-family: Determination Sans;
+}
+
+.cf48127484dbde85-heading-xxl\/semibold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xxl\/bold {
+    font-family: Determination Mono;
+}
+
+.cf48127484dbde85-heading-xxl\/extrabold {
+    font-family: Minecraft Seven V2;
+}
+
+/* ~~eyebrow */
+
+.cf48127484dbde85-eyebrow {
+    font-family: Determination Sans;
+}
+
+.b717a15017b82443-eyebrow {
+    font-family: Minecraft Seven V2;
+}
+
+._2b1f52e43a8f1c02-eyebrow {
+    font-family: Determination Sans;
+}
+
+.eyebrow_a7acae {
+    font-family: "Determination Sans";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow__2b1f5 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_b717a1 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .02em
+}
+
+.eyebrow__463b7 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .02em;
+    line-height: 1.3333333333333333;
+    text-transform: uppercase
+} /*Discord keeps changing the layer visibilty for the ping counter, so this is what it is right now. It's subject to change, but this will give a base for what to change instead of adding a new line of uncertainty*/
+
+.footnote\/medium_cf4812 {
+    font-family: Minecraft Seven V2;
+}
+
+
+/* vc-base */
+
+.vc-text-base {
+    font-family: Determination Sans;
+}
+
+.vc-btn-base {
+    font-family: Determination Sans;
+}
+
+/* Misc. fonts */
+
+.c1e9c47c23f12ca3-groupLabel {
+    font-family: Determination Mono;
+}
+
+/* Reverted Fonts */
+
+body {
+    background: transparent;
+    font-family: "Minecraft Seven v2", monospace;
+    line-height: 1;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none
+}
+
+.text-md-semibold-22iAgK {
+    font-family: "Minecraft Seven v2";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-md-semibold-22iAgK {
+    font-family: "Minecraft Seven v2";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+.text-sm\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.text-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-lg\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.text-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 400
+}
+
+.text-xs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/normal_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-xxs\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-xxs\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.text-xxs\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: "Determination Mono", monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-sm\/medium_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.text-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-xs\/medium_cf4812 {
+    font-family: "Determination Mono";
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 500
+}
+
+.text-xs\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xs\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 600
+}
+
+.text-xs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.text-xxs\/semibold_cf4812 {
+    font-family: "Determination Mono";
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-xxs\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .625rem
+}
+
+.text-sm\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 700
+}
+
+.text-sm\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.text-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.text-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-md\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.text-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-lg\/normal_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400
+}
+
+.text-lg\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-md\/semibold_cf4812 {
+    font-family: "Determination Sans";
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-md\/extrabold_cf4812{
+    font-family: determination sans;
+}
+
+.heading-lg\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-lg\/bold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700
+}
+
+.heading-lg\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-lg\/extrabold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 800
+}
+
+.heading-lg\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.heading-xl\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.heading-xl\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/normal_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xxl\/medium_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.heading-xl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/extrabold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.heading-xl\/bold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 24px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1.5rem
+}
+
+.text-lg\/medium_cf4812 {
+    font-family: "Minecraft Seven v2", monospace;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500
+}
+
+.text-lg\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.text-xs\/bold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 12px;
+    line-height: 1.3333333333333333;
+    font-weight: 700
+}
+
+.text-xs\/bold_cf4812.fontScaling_cf4812 {
+    font-size: .75rem
+}
+
+.heading-sm\/medium_cf4812 {
+    font-family: Determination Mono;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 500
+}
+
+.heading-sm\/medium_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-xxl\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.heading-xxl\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/bold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-xxl\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-xxl\/extrabold_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 800
+}
+
+.heading-xxl\/extrabold_cf4812.fontScaling_cf4812 {
+    font-size: 2rem
+}
+
+.heading-md\/bold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 700
+}
+
+.heading-md\/bold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.heading-lg\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.heading-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.display-md_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 34px;
+    line-height: 1.0588235294117647;
+    font-weight: 800
+}
+
+.display-md_cf4812.fontScaling_cf4812 {
+    font-size: 2.125rem
+}
+
+.display-md_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
+.display-lg_cf4812 {
+    font-family: "Minecraft Seven v2";
+    font-size: 44px;
+    line-height: .9545454545454546;
+    font-weight: 800
+}
+
+.display-lg_cf4812.fontScaling_cf4812 {
+    font-size: 2.75rem
+}
+
+.display-lg_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
+.text-lg\/semibold_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600
+}
+
+.text-lg\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1.25rem
+}
+
+.seeAllPerksButton_ca1a02 {
+    font-family: Determination Mono;
+    font-weight: 400;
+    font-size: 14px;
+    background: var(--background-floating);
+    box-shadow: 0 12px 36px 0 var(--opacity-black-16);
+    color: var(--text-normal);
+    border-radius: 4px;
+    padding: 8px 8px 8px 16px
+}
+
+.seeAllPerksButton_ca1a02:hover {
+    background: linear-gradient(120deg,var(--premium-tier-2-purple-for-gradients) 20%,var(--premium-tier-2-purple-for-gradients-2) 50%,var(--premium-tier-2-pink-for-gradients) 80%)
+}
+
+.text-md\/normal_cf4812 {
+    font-family: Determination Sans;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 400
+}
+
+.text-md\/normal_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.bar__3b95d {
+    font-family: Determination Sans;
+}
+
+
+
+.title_b717a1 {
+    flex: 1;
+    cursor: default;
+    font-family: Minecraft Seven v2;
+}
+
+.h1_b717a1 {
+    font-size: 20px;
+    line-height: 24px
+}
+
+.userTag__1fed1 {
+    margin-bottom: 6px;
+    font-family: Minecraft Seven v2;
+    color: var(--header-primary);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600
+}
+
+.discriminator__1fed1 {
+    color: var(--header-secondary)
+}
+
+.text__13cf1 {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    font-family: Determination Mono;
+    font-weight: 600
+}
+
+.container_a9809a {
+    position: relative
+}
+
+.text-md\/semibold_cf4812 {
+    font-family: Determination Mono;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 600
+}
+
+.text-md\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.userName__0f2e8 {
+    color: var(--channels-default);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 85%;
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.28571;
+    font-weight: 500;
+}
+
+.userName__0f2e8.fontScaling__0f2e8 {
+    font-size: 0.875rem;
+}
+
+.heading-sm\/normal_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 400
+}
+
+.heading-sm\/normal_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-sm\/semibold_cf4812 {
+    font-family: "Determination Sans", monospace;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.heading-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+    font-size: 16px;
+    line-height: 1.25;
+    font-weight: 500
+}
+
+.heading-md\/medium_cf4812.fontScaling_cf4812 {
+    font-size: 1rem
+}
+
+.text-sm\/semibold_cf4812 {
+    font-family: Determination Sans;
+    font-size: 14px;
+    line-height: 1.2857142857142858;
+    font-weight: 600
+}
+
+.text-sm\/semibold_cf4812.fontScaling_cf4812 {
+    font-size: .875rem
+}
+
+.heading-md\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-sm\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/message-preview\/normal_cf4812{
+    font-family: Determination sans;
+}
+
+.redesign\/message-preview\/medium_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/semibold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/message-preview\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/heading-18\/bold_cf4812{
+    font-family: Determination Mono;
+}
+
+.redesign\/channel-title\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.redesign\/channel-title\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/normal_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/medium_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/semibold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/bold_cf4812{
+    font-family: Determination Sans;
+}
+
+.heading-deprecated-12\/extrabold_cf4812{
+    font-family: Determination Sans;
+}
+
+.display-sm_cf4812{
+    font-family: Minecraft Seven v2;
+}
+
+.display-sm_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
+.channelName__754bd div,.channelName__754bd input {
+    font-family: Minecraft Seven v2;
+    font-weight: 600
+}
+
+.newWrapper__754bd {
+    gap: 12px
+}
+
+:root .membersWrap_c8ffbb .members_c8ffbb .container__0f2e8 .infoSection__0f2e8 .badgesContainer__635ed .timestamp__230d2 {
+    color: var(--current-card-fg) !important;
+    transition: color 0.2s;
+    font-weight: 400;
+    font-family: Determination Sans;
+    font-variant: unset;
+    font-variation-settings: unset;
+    font-variant-numeric: unset;
+    font-feature-settings: unset;
+}
+
+.text-sm\/medium__13cf1 {
+    font-family: Minecraft Seven v2;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2857142857142858
+}
+
+.text-sm\/medium__13cf1.fontScaling__13cf1 {
+    font-size: .875rem
+}
+
+.text-sm\/normal__6ec1a {
+    font-family: Determination Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2857142857142858
+}
+
+.markup__75297 h1,.markup__75297 h2,.markup__75297 h3,.markup__75297 h4,.markup__75297 h5,.markup__75297 h6 {
+    color: var(--header-primary);
+    font-family: Minecraft Seven v2;
+    font-weight: 700;
+    line-height: 1.375em;
+    margin: 16px 0 4px
+}
+
+.groupLabel_c1e9c4 {
+    font-family: Determination Mono;
+}
 
 /**
-.panels_5e434 {
-  left: var(--space-sm)!important;
-  height: 57px!important;
-  width: 56px!important;
-  border-radius: 30px!important;
-  display: flex!important;
-  flex-direction: column;
-  overflow: hidden;
-  transition-duration: 0.35s;
-  z-index: 50000;
-  pointer-events: all;
-  border: 1px solid var(--border-subtle)!important;
- &:has(.container_e131a9) {
-  border: 1px solid var(--border-normal);
- }
-}
-
-.wrapper_e131a9 {
-  height: 0;
-  overflow: hidden;
-  
-}
-
-.panels_5e434:hover {
-  width: 300px!important;
-  height: auto!important;
-  display: flex!important;
-  flex-direction: column;
-  border-radius: 15px!important;
-  filter: drop-shadow(7px 7px 7px rgba(0, 0, 0, 0.123)) ;
-  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  .wrapper_e131a9 {
-    height: auto!important;
-  }
-}
-.sidebar_5e434 {
-  overflow: visible!important;
-}
-.container__2637a {
-  padding-bottom: 0px!important;
-}
-.scroller__99e7c {
-  margin-bottom: 0px!important;
-}
-.bottom__7aaec {
-  bottom: 0px!important;
-}
-
-.visual-refresh [class^="panels_"] [class^="container__"] [class^="buttons__"] {
-  opacity: 0;
-  transform: scale(0);
-  transform-origin: left;
-  transition: opacity 0.1s ease-in, transform 0.1s ease-in;
-  will-change: opacity, transform;
-}
-
-.visual-refresh [class^="panels_"]:hover [class^="container__"] [class^="buttons__"] {
-
-  transform: scale(1);
-  
-  opacity: 1;
-}
-
-.visual-refresh .panel__5dec7 {
-  display: none;
-}
-
-.visual-refresh [class^="panels_"]:hover .panel__5dec7 {
-  display: block;
-}
+The fonts end here
+Colors also start here
 */
 
-
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
-
-/* Revert user area - by @krekevyks1337 (237616896948699136) */
-.visual-refresh div[class*="-sidebar"] section[class$="-panels"] {
-  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
-  left: 141px;
-  bottom: 0px;
-  border-radius: 0px;
-  border: none;
+.improved__1689b, h3.improved__1689b {
+    color: var(--text-brand-new);
 }
 
-.visual-refresh nav[class*=-guilds] {
-  margin-bottom: unset;
+:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084,:where(.visual-refresh) .input__0f084:not([readOnly]).focused__0f084:hover,:where(.visual-refresh) .input__0f084:not([readOnly]):focus,:where(.visual-refresh) .input__0f084:not([readOnly]):focus:hover {
+    border-color: var(--text-link-new);
 }
 
-/* Padding hotfix - by @her.kiwi (IK_Stuff) */
-.container_e131a9 {
-  padding: 15px;
+.visual-refresh .defaultTextInputWrapper__7b848:focus-within {
+    border: 1px solid var(--text-link-new);
 }
 
+.message-accessories-1369046989622349906{
+    border-left-color:#7289DA;
+}
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.visual-refresh .embedFull__623de{
+    background: var(--background-surface-high);
+    border: 1px solid var(--border-subtle);
+    border-left: 4px solid var(--border-normal);
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--blue-345-new) !important;
+    
+}
+
+.eventStatusContainer__29021 {
+    path{
+        fill:#7289DA;
+    }
+}
+
+.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+    background: linear-gradient(151.11deg, var(--brand-460) 16.55%, var(--brand-560) 104.36%);
+    background-image: linear-gradient(151.11deg, hsl(227, 58%, 65%) 16.55%, hsl(227, 31%, 44%) 104.36%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+.tierCardButtonCTA_a45ed3 {
+    color: #7289da;
+}
+
+.newChannel__599fa {
+    color: #4E5D94
+}
+
+.button__6e3f1 {
+    border-radius: 4px;
+    color: #7289DA;
+    margin-right: 8px;
+    padding: 6px;
+}
+
+.lookFilled__201d5.colorBrand__201d5:hover {
+    background-color: #4E5D94
+}
+
+.lookFilled__201d5.colorBrand__201d5:disabled, .lookFilled__201d5.colorBrand__201d5[aria-disabled=true] {
+    background-color: #7289DA ;
+}
+
+a {
+    color: #7289DA;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.content__487be a {
+    color: var(--blue-345-new);
+    text-decoration: none;
+    transition: .05s;
+}
+
+.markup__75297 a {
+    color: var(--blue-345-new);
+    cursor: pointer;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+    word-break: break-word
+}
+
+.visual-refresh .selected_b3f026.item_b3f026,.visual-refresh .selected_b3f026.item_b3f026:hover {
+    color: #7289DA;
+    cursor: default
+}
+
+.visual-refresh .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
+    background-color: #7289DA ;
+    border-color: #4E5D94 ;
+    color: var(--white)
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.selected_b3f026 {
+    color: #7289DA
+}
+
+:where(.visual-refresh) .top_b3f026 .item_b3f026.brand_b3f026 {
+    --selected-tab-item-color: #7289DA;
+}
+
+:where(.visual-refresh) .slider_a562c8 .barFill_a562c8 {
+    background-color: #7289DA;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
+    fill: #7289DA
+}
+
+:where(.visual-refresh) .radioIndicatorChecked__001a7 .refreshIconStroke__001a7 {
+    stroke: #7289DA;
+}
+
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5 {
+    color: #7289DA
+}
+
+:where(.visual-refresh).theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,:where(.visual-refresh).theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
+    --button--underline-color: #7289DA;
+}
+
+.channel__972a0:has(.selected_bf202d) .linkButtonIcon__972a0, .channel__972a0:has(.selected_bf202d) .closeButton__972a0 {
+  color: #7289DA;
+}
+
+.channel__972a0:has(.selected_bf202d) {
+  border-left-color: #7289DA;
+  color: var(--button-filled-brand-text);
+}
+
+.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,.wrapper__6e9f8:hover .childWrapper__6e9f8 {
+    background-color: #7289DA;
+    color: var(--white)
+}
+
+.botTagRegular__82f07 {
+  background: #7289DA;
+  color: var(--white);
+}
+
+.wrapper_f61d60 {
+  background:
+rgba(114, 137, 218, 0.24);
+  border-radius:
+3px;
+  color: rgb(144, 255, 167);
+  font-weight: 500;
+  padding:
+0 2px;
+  unicode-bidi: plaintext;
+}
+
+.interactive:hover {
+  background-color: #7289DA;
+  color: var(--white-500);
+}
+
+.lookFilled__201d5.colorBrand__201d5 {
+    background-color: #7289DA;
+    color: var(--button-filled-brand-text)
+}
+
+.selectedBackground_e681d1 {
+    background-color: #7289DA;
+}
+
+.card__73069 a {
+    color: #7289DA;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32),
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) {
+  border-left-color: #7289DA !important;
+  background-color: rgba(78, 93, 148, 0.25) !important;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32) .link__2ea32 svg {
+  color: #7289DA;
+}
+
+.containerDefault_c69b6d:has(.modeSelected__2ea32):hover,
+.containerDragBefore_c69b6d:has(.modeSelected__2ea32):hover {
+  background-color: rgba(114, 137, 218, 0.25);
+}
+
+.headerLearnMoreLink__99020 {
+    color: #7289DA;
+    cursor: pointer
+}
+
+.cta__37ae5 {
+    color: #7289DA!important;
+    display: inline;
+    height: auto;
+    margin-left: 4px;
+    min-height: auto;
+    min-width: auto;
+    padding: 0
+}
+
+.selectionCircle__36dee {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #7289DA,inset 0 0 0 4px var(--background-primary);
+    cursor: default;
+    height: calc(100% + 4px);
+    left: -2px;
+    pointer-events: none;
+    position: absolute;
+    top: -2px;
+    width: calc(100% + 4px)
+}
+
+.checkmark__36dee {
+  color: #7289DA;
+}
+
+.checked__87bf1{
+    opacity: 1;
+    background-color:#7289DA !important;
+    path {
+        fill:#7289DA
+    }
+}
+
+:where(.visual-refresh) .checkbox_f525d3.checked_f525d3 {
+    background-color: #7289DA;
+    border-color: #7289DA;
+}
+
+.newMessagesBar__0f481 {
+  background-color: #7289DA;
+  border-radius:
+0 0 8px 8px;
+  box-shadow: var(--elevation-low);
+  height: 32px;
+  top: 0;
+  z-index: 3;
+}
+
+.fakeLink_ada32f {
+    color: #7289DA;
+    -webkit-text-decoration: var(--link-decoration);
+    text-decoration: var(--link-decoration);
+}
+
+.message__5126c.replying__5126c.selected__5126c, .mouse-mode.full-motion .message__5126c.replying__5126c:hover, .mouse-mode.full-motion.visual-refresh .message__5126c.replying__5126c:hover, .visual-refresh .message__5126c.replying__5126c.selected__5126c {
+    background: var(--brand-10a);
+}
+
+.selectorButton_c6d3dc:before {
+    background: var(--brand-500);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #7289DA;
+    content: " ";
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.images-dark .krispLogo_e131a9 {
+    background-image: url(https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg);
+}
+
+.icon_f43ba5 {
+    content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/e9ed313dde26d91b.svg");
+}
+
+.container__3f21e.checked__3f21e {
+    background-color: hsl(227, 58%, 65%) !important;
+}
+
+.flowerStarContainer__3e3b0.gameVerifiedIcon_cc46f0 {
+    .flowerStar__3e3b0 {
+        path{
+        fill: #7289DA !important;
+        }
+    }
+}
+
+.visual-refresh .reaction__23977.reactionMe__23977 {
+    background-color: rgba(78, 93, 148, 0.4);
+    border-color: #7289DA;
+}
+
+.button__6d791.active__6d791 {
+    path{
+        fill:#7289DA !important;
+    }
+}
+
+.colorStreamerMode__6e2b9 {
+    --custom-notice-background: var(--youtube);
+    --custom-notice-text: var(--white-500);
+    --custom-notice-button-hover: var(--youtube);
+}
+
+.streamerModeEnabledBtn_aa3ffd {
+    background-color: var(--youtube-tertiary);
+    border-radius: 3px;
+    color: var(--white-500);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.streamerModeEnabledBtn_aa3ffd:hover {
+    background-color: var(--youtube-secondary)
+}
+
+.streamerModeEnabledBtn_aa3ffd.disabled_aa3ffd {
+    background-color: var(--youtube);
+    cursor: default;
+    opacity: .5
+}
+
+/* Nitro */
+
+.nitro-md_cf4812 {
+    font-family: Minecraft Seven V2;
+}
+
+.nitro-sm_cf4812 {
+    font-family: Minecraft Seven V2;
+}
+
+.tabBarItemContainer_c7e907 {
+    path{
+        fill:#71c5e7;
+    }
+}
+
+.tierAccomplished_c44edb, .tierCurrent_c44edb, .tierFirst_c44edb {
+    background: #71c5e7;
+}
+
+.perksDemoContainer__5dec7 {
+    path {
+        d:('M15 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z');
+        d:('M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1 1 0 0 0 0 2H8a1 1 0 1 1 0 2H6a1 1 0 1 0 0 2h1.25A8 8 0 1 0 15 4H7Zm8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z');
+        d:('M2.5 10a1 1 0 0 0 0-2H2a1 1 0 0 0 0 2h.5Z');
+        fill:#71c5e7
+    }
+}
+
+.iconImage__3b770 {
+    content: url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/185ece790f20d870.svg')
+}
+
+.text__87e56 {
+    color: #71c5e7;
+}
+
+.premiumIcon__5d473 {
+    color: #71c5e7;
+    margin-left: 3px;
+}
+
+.guildBoostBadge__5dba5 {
+    color: #71c5e7;
+    margin-right: 6px;
+}
+
+.boostIcon__37ae5 {
+    color: #71c5e7;
+    margin-right: 4px;
+}
+
+.theme-dark .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9 .buttonColor_e131a9.buttonActive_e131a9,.theme-dark.custom-theme-background .experimentButton_e131a9.buttonColor_e131a9.buttonActive_e131a9 {
+    background-color: hsl(var(--green-400-hsl)/.1);
+    border: 1px solid hsl(var(--green-400-hsl)/.1);
+    color: rgb(110, 197, 126)
+}
+
+.navItem__551b0.selected__551b0 .navItemIcon__551b0 {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 svg {
+    color: #7289DA;
+}
+
+.navItem__551b0.selected__551b0 {
+    border-left-color: #7289DA;
+    color: #7289DA;
+    background-color: rgba(78, 93, 148, .25);
+}
+
+.premiumLabel_e681d1{
+    path {
+        fill:#71c5e7
+    }
+}
+
+.selected_e681d1{
+    path {
+        fill:white
+    }
+}
+
+.progress__0d0f9 {
+    background: linear-gradient(270deg,hsl(197deg 71% 67% / 40%),hsl(197deg 70% 77% / 10%));
+    box-shadow: 0 1px 4px 0 hsla(0, 0%, 0%, 0.14), inset 0 0 4.6px 0 hsla(227, 71%, 67%, 0.2);
+}
+
+.container__0d0f9:hover .progress__0d0f9 {
+    background: linear-gradient(270deg, hsla(197, 71%, 67%, 0.702), hsla(197, 70%, 77%, 0.25));
+}
+
+.pill_f8e6bf {
+    background-image: linear-gradient(92deg, hsl(227, 71%, 67%) 0, hsl(197, 71%, 67%) 49.96%, #9bd6ed 95.93%);
+    border-radius: 10px;
+    color: var(--white);
+    left: 24px;
+    padding: 0 8px;
+    position: absolute;
+    top: -8px;
+    z-index: 30;
+}
+
+.nitroGradientBorderHover__1f069:before {
+    background: linear-gradient(95.07deg,  lab(59.01% 16.82 -50.57) 0, hsl(197, 71%, 67%) 49.96%, hsl(197, 70%, 77%) 95.93%), var(--premium-tier-2-purple-for-gradients);
+    border-radius: inherit;
+    content: "";
+    inset: -2px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+.tierCard_a45ed3 {
+    background-image: linear-gradient(92deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    border-radius: var(--radius-lg);
+    color: var(--white-500);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.expandedProgressBarSelectFriendsCTA_a61c56 {
+    background: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+    background-clip: padding-box;
+    color: var(--white);
+    flex: 1;
+}
+
+.tier2PlanComparisonTableBackground_a45ed3 {
+    background: linear-gradient(90deg, hsla(227, 71%, 67%) 0.102, hsl(197, 71%, 67%) .1);
+}
+
+.tier2ColumnOuter_e4ef5c, .tier2ColumnOuterBackground_e4ef5c {
+    border: 2px solid #718ae7;
+    height: 100%;
+}
+
+.theme-dark .userAvatarProgressBarUnit_a61c56 {
+    background: linear-gradient(90deg, hsla(227, 71%, 67%, 0.3), hsla(197, 71%, 67%, 0.3));
+}
+
+.avatarProgressBarUnitConnectorBase_a61c56 {
+    background: linear-gradient(90deg, rgba(113, 138, 231, .3), rgba(113, 197, 231, .3));
+    height: 100%;
+    width: 100%;
+}
+
+.theme-dark .userAvatarProgressBarUnitNum_a61c56 {
+    background: var(--gradients-nitro-nitro-horizontal, linear-gradient(90deg, #718ae7 0, #9dd7ee 100%));
+}
+
+.theme-darker {
+  --badge-epic-background: hsla(219, 86%, 64%, 0.239);
+  --badge-epic-border-gradient-end: var(--illo-blurple-40);
+  --badge-epic-border-gradient-start: var(--illo-sky-blue-40);
+  --badge-epic-text: var(--illo-sky-blue-30);
+}
+
+.expandedProgressBarSelectFriendsIcon_a61c56 {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/3b9b1649f78941df.svg');
+}
+
+.gemIcon_a0750b {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/263e4cc9043cab70.svg');
+}
+
+.rowThumbnail__1bfce {
+    content:url('https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/rowThumbnail__1bfce.png');
+}
+
+.tier2__84995.banner__84995 {
+    background-image: linear-gradient(101deg, #718ae7 0, #71c5e7 49.96%, #9dd7ee 95.93%);
+}
+
+.premiumIndicator__43963 {
+    background-color: #7289DA;
+}
+
+.guildBoostBadgeWithBoosts_f9f04c {
+    color: #71c5e7;
+    opacity: 1;
+}
+
+.progressBarMarkerUnlocked__1f1cb .progressBarMarkerIndicator__1f1cb {
+    background: #71c5e7;
+    border-radius: 100%;
+    content: "";
+    height: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: var(--custom-guild-boosting-marketing-progress-bar-marker-marker-dimensions);
+    z-index: 0;
+}
+
+.progress__823e1.half__823e1 {
+    background: linear-gradient(90deg, rgb(113, 138, 231), var(--bg-mod-subtle));
+}
+
+.progressBarFill_b28bb7 {
+    background-image: linear-gradient(90deg, rgb(113, 138, 231) 0, var(--white-500) 100%);
+    left: 0;
+    z-index: 2;
+}
+
+.rarity-epic_c2b88c {
+  --rarity-ring-start: var(--badge-epic-border-gradient-start);
+  --rarity-ring-end: var(--badge-epic-border-gradient-end);
+  color: var(--badge-epic-text);
+}
+
+.progressBarActive_c50892 {
+  background: linear-gradient(90deg,#4eeaff,rgba(78, 234, 255, 0.4));
+  box-shadow: inset 0 0 4px 0 rgba(128, 225, 255, 0.3);
+}
+
+    /* Nitro Server Boost Tiers */
+
+    .headerGradient__00843 {
+  background: radial-gradient(ellipse 100% 70% at 50% 0,rgba(89, 115, 209, 0.6) 0,rgba(47, 95, 140, 0.3) 50%,transparent 80%),var(--background-base-lowest);
+  inset: 0;
+  position: absolute;
+}
+
+    img[src*="f91111a2"]{
+        content:url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/f91111a24ca4c59e87a462e8a3523938628e03e3723c31e5681991a07b0acf48.png");
+    }
 
 
-/*Remove Back and Forward Arrows - by @her.kiwi (IK_Stuff) */
-.backForwardButtons__63abb {
-    display: none;
+        /*badgeImage__9953c*/
+        
+        img.badgeImage__9953c[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.badgeImage__9953c[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.badgeImage__9953c[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.badgeImage__9953c[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.badgeImage__9953c[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.badgeImage__9953c[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.badgeImage__9953c[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.badgeImage__9953c[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.badgeImage__9953c[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+
+        /*badge__8061a*/
+
+        img.badge__8061a[src*="51040c70"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/51040c70d4f20a921ad6674ff86fc95c.png");
+        }
+
+        img.badge__8061a[src*="0e4080d1"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/0e4080d1d333bc7ad29ef6528b6f2fb7.png");
+        }
+
+        img.badge__8061a[src*="72bed924"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/72bed924410c304dbe3d00a6e593ff59.png");
+        }
+        img.badge__8061a[src*="996b3e87"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/996b3e870e8a22ce519b3a50e6bdd52f.png");
+        }
+
+        img.badge__8061a[src*="df199d20"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/df199d2050d3ed4ebf84d64ae83989f8.png");
+        }
+        img.badge__8061a[src*="991c9f39"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/991c9f39ee33d7537d9f408c3e53141e.png");
+        }
+        img.badge__8061a[src*="cb3ae83c"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/cb3ae83c15e970e8f3d410bc62cb8b99.png");
+        }
+
+        img.badge__8061a[src*="7142225d"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/7142225d31238f6387d9f09efaa02759.png");
+        }
+
+        img.badge__8061a[src*="ec922022"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Boost%20Badge%20Profile/ec92202290b48d0879b7413d2dde3bab.png");
+        }
+
+
+        /*contain_f90522*/
+
+        img.contain_f90522[src*="33e98755"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/33e98755a49cf85d07b8189a0001926c17d91599d53662a39999329f5253254f.svg");
+        }
+
+        img.contain_f90522[src*="3bc18204"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/3bc18204c2bf43975ded85a602c7816d032bc07cf9b1d5589e52404f9bc1d687.svg");
+        }
+
+        img.contain_f90522[src*="cb869ee4"]{
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Server%20Boost%20Levels/cb869ee40a8ed5d6210e69a02cebbf03025be47006b310ec2564f74f6ad1dff8.svg");
+        }
+        
+
+        /*badgeGraphic__6f97a*/
+
+        img.badgeGraphic__6f97a[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.badgeGraphic__6f97a[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.badgeGraphic__6f97a[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.badgeGraphic__6f97a[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.badgeGraphic__6f97a[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.badgeGraphic__6f97a[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.badgeGraphic__6f97a[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.badgeGraphic__6f97a[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.badgeGraphic__6f97a[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+        /*nextLevelArt*/
+
+        img.nextLevelArt__8f056[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.nextLevelArt__8f056[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.nextLevelArt__8f056[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.nextLevelArt__8f056[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.nextLevelArt__8f056[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.nextLevelArt__8f056[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.nextLevelArt__8f056[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.nextLevelArt__8f056[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.nextLevelArt__8f056[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+        /*tierTimelineIcon__64bbc*/
+
+        img.tierTimelineIcon__64bbc[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.tierTimelineIcon__64bbc[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+        /*badgeSlotIcon__6db38*/
+
+        img.badgeSlotIcon__6db38[src*="de982c9d"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/de982c9d8a5d862b47fd34de3020987698cb775d19603bc137a2372eda321c4c.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="f5724adb"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/f5724adb38a17acf45a80d51b7f9f19a3b00b269029fd1830809d458fa86701e.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="d6b9cad8"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/d6b9cad8a896ff89b834285bc27ac197e5bfb1bb1b45d4f607c08fb8af0abd1d.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="78dd9e01"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/78dd9e018bbe400d4586d72a546b4959151d4ad3b38a6d31b13f5fad62a2f934.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="75ea6733"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/75ea67339d5ead82c1c7b518aedf7572688dc2dc432f8a5c4de80c59fec98a90.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="42cf2eea"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/42cf2eea604168d5cd79060992a7493768406577e2f49aee28359e75f08f92a2.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="b5ce61b9"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/b5ce61b9457ef246b1c58fee0864c7810234c32b299b545514905a9a97e5218b.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="9776068e"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/9776068ee4e81791aaa7671a6e00f6db34675ddf17ae5548b1ce657e704f9f4b.svg");
+        }
+        img.badgeSlotIcon__6db38[src*="90ced1c5"] {
+            content: url("https://raw.githubusercontent.com/IK-Stuff/Custom-Colors-and-Fonts/refs/heads/main/Nitro%20Boost%20SVGs/90ced1c5e3ffa4fbe6cf0dc93bdab44650b55b02a0e61d70badd3f3524e7436c.svg");
+        }
+
+
+/* it took some digging, but i found out that something like [src*=] looks for the link/file in the original code under that image/class in the element and using 'content' you can replace that specific instance with what you want. I was already aware of content (obv) */
+
+
+/* Speaking */
+
+:root{
+    --voice-red: hsl(345, 100%, 49%);
+    --voice-gold: hsl(33, 37%, 49%);
+}
+
+.voiceIcon_adebba {
+    display: block;
+    flex-shrink: 0;
+    opacity: 1;
+    color: #b90202 !important;
+}
+
+.speaking_adebba .avatar_adebba {
+    outline: 1px solid #FA003F;
+    outline-offset: 2px;
+}
+
+.border_f910d0.speaking_f910d0 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-floating);
+}
+
+.avatarSpeaking__07f91 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
+}
+
+.border__2f4f7.speaking__2f4f7 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
+}
+
+.avatarSpeaking__44b0c {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--background-secondary);
+}
+
+.overlayContainer__2f4f7 {
+    .border__2f4f7.speaking__2f4f7 {
+    box-shadow: inset 0 0 0 2px #FA003F, inset 0 0 0 3px var(--black-500);
+    }
 }
