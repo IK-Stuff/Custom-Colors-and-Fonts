@@ -171,6 +171,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Sans;
 }
 
+.body-xs\/medium_cf09d8 {
+    font-family: Determination Sans;
+}
+
 .text-xs\/medium__80bf8 {
     font-family: Determination Sans;
 }
@@ -1297,6 +1301,8 @@ body {
 .footnote\/medium_cf4812 {
     font-family: Minecraft Seven v2;
 }
+
+
 
 /* Browser Fonts*/
 .button-nav.login-button-js.new {
