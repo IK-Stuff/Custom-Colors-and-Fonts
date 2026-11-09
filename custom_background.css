@@ -1,7 +1,7 @@
 /**
  * @name Custom Background
  * @author I.K. Stuff
- * @description A very heavily modified version of the Chillax theme by wq to not change too much of the UI
+ * @description A very heavily modified version of the BasicBackground theme addon for BetterDiscord
 */
 
 
@@ -9,41 +9,36 @@
 	
 	--transparencycolor:			0, 0, 0;
 	--transparencyalpha:			0.15;
-	--bordercolor:				0, 0, 0;
 	--messagetransparency:			0.5;
 	--guildchanneltransparency:		0.15;
 	--chatinputtransparency:		0.0;
 	--memberlisttransparency:		0.0;
 	--accentcolor:				190, 78, 180;
-	
 
-	--background_v:				var(--background_s, var(--background));
-	--backgroundposition_v:			var(--backgroundposition_s, var(--backgroundposition));
-	--backgroundsize_v:			var(--backgroundsize_s, var(--backgroundsize));
-	--backgroundblur_v:			calc(1px * var(--backgroundblur_s, var(--backgroundblur)));
-	
 	--background:				url(https://files.catbox.moe/s5p2zv.jpg);
 	--backgroundposition:			center;
 	--backgroundsize:			cover;
 	--backgroundblur:			0;
-
 	
 	--transparencycolor_v:			var(--transparencycolor_s, var(--transparencycolor));
 	--transparencyalpha_v:			var(--transparencyalpha_s, var(--transparencyalpha));
-	--bordercolor_v:			var(--bordercolor_s, var(--bordercolor));
 	--messagetransparency_v:		var(--messagetransparency_s, var(--messagetransparency));
 	--guildchanneltransparency_v:		var(--guildchanneltransparency_s, var(--guildchanneltransparency));
 	--chatinputtransparency_v:		var(--chatinputtransparency_s, var(--chatinputtransparency));
 	--memberlisttransparency_v:		var(--memberlisttransparency_s, var(--memberlisttransparency));
 	--accentcolor_v:			var(--accentcolor_s, var(--accentcolor));
-
+	
+	--background_v:				var(--background_s, var(--background));
+	--backgroundposition_v:			var(--backgroundposition_s, var(--backgroundposition));
+	--backgroundsize_v:			var(--backgroundsize_s, var(--backgroundsize));
+	--backgroundblur_v:			calc(1px * var(--backgroundblur_s, var(--backgroundblur)));
 	
 	--popout_v:				var(--popout_s, var(--popout));
 	--popoutposition_v:			var(--popoutposition_s, var(--popoutposition));
 	--popoutsize_v:				var(--popoutsize_s, var(--popoutsize));
 	--popoutblur_v:				calc(1px * var(--popoutblur_s, var(--popoutblur)));
 
-	--popout:				var(--background);
+    --popout:				var(--background);
 	--popoutposition:			var(--backgroundposition);
 	--popoutsize:				var(--backgroundsize);
 	--popoutblur:				var(--backgroundblur);
@@ -72,6 +67,18 @@
 	--background-nested-floating: rgba(var(--transparencycolor_v), .5);
 	--chat-background-default: rgba(var(--transparencycolor_v), .3);
 
+}
+
+
+#app-mount ::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
+
+#app-mount ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: none;
+	background-color: var(--voice-red);
 }
 
 
@@ -122,10 +129,6 @@ body:has(#app-mount)::before {
 	background: var(--background_v) var(--backgroundposition_v)/var(--backgroundsize_v);
 }
 
-
-
-
-
 .panels_c48ade::before,
 .panels_c48ade::after {
 	content: "";
@@ -156,10 +159,6 @@ body:has(#app-mount)::before {
 	border: none;
 }
 
-
-
-
-
 #app-mount .root_bfe55a,
 #app-mount .callContainer_cb9592,
 #app-mount .wrapper_cb9592 {
@@ -167,9 +166,6 @@ body:has(#app-mount)::before {
 	color: var(--header-primary);
 	border-left: 0 !important;
 }
-
-
-
 
 #app-mount .shopCard_c3d04b {								/* store				card								*/
 	background-color: var(--background-base-lower) !important;
@@ -181,10 +177,6 @@ body:has(#app-mount)::before {
 #app-mount .lightCardBackground_c3d04b {
 	background-color: rgba(var(--transparencycolor_v), .2);
 }
-
-
-
-
 
 #app-mount .quickswitcher_ac6cb0 {
 	background-color: transparent;
@@ -229,7 +221,6 @@ body:has(#app-mount)::before {
 #app-mount .result__71961[aria-selected=true] {						/* modal				resultselected							*/
 	background-color: rgba(var(--transparencycolor_v), .2);
 }
-
 
 .contentWrapper__08434::before,
 .container__0800c::before,
@@ -276,10 +267,6 @@ body:has(#app-mount)::before {
 .container__0800c .emojiPicker_c0e32c::after {
 	display: none;
 }
-
-
-
-
 
 #app-mount .emojiPickerHeader__0800c,
 #app-mount .header_c0e32c {
@@ -342,8 +329,6 @@ body:has(#app-mount)::before {
 	position: static;
 }
 
-
-
 #app-mount .picker__09f65 {
 	background-color: transparent;
 	border: none;
@@ -374,15 +359,13 @@ body:has(#app-mount)::before {
 	backdrop-filter: blur(var(--popoutblur_v));
 }
 
+#app-mount ::-webkit-scrollbar {
+	width: 5px;
+	height: 5px;
+}
 
-
-
-::-webkit-scrollbar,
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-track-piece,
-#app-mount ::-webkit-scrollbar,
-#app-mount ::-webkit-scrollbar-track,
-#app-mount ::-webkit-scrollbar-track-piece {
-	border-color: transparent !important;
-	background: transparent !important;
+#app-mount ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: none;
+	background-color: var(--voice-red);
 }
