@@ -53,19 +53,19 @@
 .visual-refresh .theme-light:not(.custom-user-profile-theme),
 .visual-refresh .theme-dark:not(.custom-user-profile-theme),
 .visual-refresh .theme-amoled:not(.custom-user-profile-theme) {
-	--background-mod-faint: rgba(var(--transparencycolor_v), .3);
-	--background-mod-subtle: rgba(var(--transparencycolor_v), .4);
-	--background-mod-normal: rgba(var(--transparencycolor_v), .46);
-	--background-mod-strong: rgba(var(--transparencycolor_v), .54);
-	--background-base-low: rgba(var(--transparencycolor_v), .2);
-	--background-base-lower: rgba(var(--transparencycolor_v), .3);
-	--background-base-lowest: rgba(var(--transparencycolor_v), .4);
+	--background-mod-faint: rgba(var(--transparencycolor_v), .15);
+	--background-mod-subtle: rgba(var(--transparencycolor_v), .2);
+	--background-mod-normal: rgba(var(--transparencycolor_v), .23);
+	--background-mod-strong: rgba(var(--transparencycolor_v), .27);
+	--background-base-low: rgba(var(--transparencycolor_v), .1);
+	--background-base-lower: rgba(var(--transparencycolor_v), .15);
+	--background-base-lowest: rgba(var(--transparencycolor_v), .2);
 	--background-surface-highest: rgb(var(--transparencycolor_v));
 	--background-surface-higher: rgb(var(--transparencycolor_v));
 	--background-surface-high: rgb(var(--transparencycolor_v));
-	--background-secondary-alt: rgba(var(--transparencycolor_v), .35);
-	--background-nested-floating: rgba(var(--transparencycolor_v), .5);
-	--chat-background-default: rgba(var(--transparencycolor_v), .3);
+	--background-secondary-alt: rgba(var(--transparencycolor_v), .16);
+	--background-nested-floating: rgba(var(--transparencycolor_v), .25);
+	--chat-background-default: rgba(var(--transparencycolor_v), .15);
 
 }
 
