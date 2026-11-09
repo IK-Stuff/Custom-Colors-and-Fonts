@@ -626,7 +626,6 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 /* Reverted Fonts */
 
 body {
-    background: transparent;
     font-family: "Minecraft Seven v2", monospace;
     line-height: 1;
     margin: 0;
@@ -1378,6 +1377,10 @@ body {
 }
 
 .body-xs\/semibold_RAOoio {
+    font-family: Determination Mono;
+}
+
+.heading-xl\/medium_RAOoio {
     font-family: Determination Mono;
 }
 
