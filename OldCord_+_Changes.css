@@ -171,22 +171,32 @@ nav.guilds__5e434, #channels {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 
-/* Revert user area - by @krekevyks1337 (237616896948699136) */
-.visual-refresh div[class*="-sidebar"] section[class$="-panels"] {
-  width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
-  left: 141px;
+/* Revert user area - by @krekevyks1337 (237616896948699136) - User area changes - by @her.kiwi (IK_Stuff) */
+.visual-refresh section.panels_pog62O {
+  left: 65px;
+  width: 367px;
+  box-sizing: border-box;
   bottom: 0px;
-  border-radius: 0px;
-  border: none;
+
+  .actionButtons_9U6LUN button {
+    
+    padding: 0;
+  }
 }
 
-.visual-refresh nav[class*=-guilds] {
-  margin-bottom: unset;
+.inner_9U6LUN {
+  padding: 2px;
 }
 
-/* Padding hotfix - by @her.kiwi (IK_Stuff) */
-.container_e131a9 {
-  padding: 15px;
+.rtcConnectionStatus_4LJE6I {
+    padding: 2px;
+}
+
+nav.guilds_pog62O {
+  margin-bottom: 0 !important;
+}
+.sidebar_pog62O:after {
+  display: none;
 }
 
 
@@ -194,6 +204,6 @@ nav.guilds__5e434, #channels {
 
 
 /*Remove Back and Forward Arrows - by @her.kiwi (IK_Stuff) */
-.backForwardButtons__63abb {
+.backForwardButtons_nS9Yqn {
     display: none;
 }
