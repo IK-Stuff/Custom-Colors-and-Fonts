@@ -269,6 +269,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-family: Determination Mono;
 }
 
+.heading-sm\/semibold_RAOoio {
+    font-family: Determination Mono;
+}
+
 .cf48127484dbde85-text-sm\/bold {
     font-family: Determination Mono;
 }
@@ -420,6 +424,10 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
 }
 
 .heading-xs\/semibold_cf4812 {
+    font-family: Determination Mono;
+}
+
+.heading-xs\/semibold_RAOoio {
     font-family: Determination Mono;
 }
 
@@ -1298,6 +1306,10 @@ body {
 }
 
 .footnote\/medium_cf4812 {
+    font-family: Minecraft Seven v2;
+}
+
+.footnote\/normal_RAOoio {
     font-family: Minecraft Seven v2;
 }
 
